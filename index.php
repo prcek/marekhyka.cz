@@ -128,16 +128,16 @@
         </div>
     </div>
     <div class="row">
-	<div class="panel">
-                <div class="panel-heading text-center">Partenři a sponzoři</div>
-                <div class="panel-body text-center">
-			<img src="imgs/bittner_logo_sm.png"  class="" alt="">
-			<img src="//placehold.it/220x100" class=""> 
-			<img src="//placehold.it/220x100" class=""> 
-			<img src="imgs/boxer_logo_sm.png"  class="" alt="">
-			<img src="//placehold.it/220x100" class=""> 
-		</div>
-	</div>
+	    <div class="panel">
+            <div class="panel-heading text-center">Partenři a sponzoři</div>
+            <div class="panel-body text-center">
+                <img src="imgs/bittner_logo_sm.png"  class="" alt="">
+                <img src="imgs/sport_invest_logo.png" class="">
+                <img src="//placehold.it/220x100" class=""> 
+                <img src="imgs/boxer_logo_sm.png"  class="" alt="">
+                <img src="//placehold.it/220x100" class=""> 
+            </div>
+        </div>
     </div>
 </div>
 
