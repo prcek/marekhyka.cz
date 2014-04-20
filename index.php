@@ -61,7 +61,7 @@
 	} else {
 		$page = $pages[0];
 	}
-	echo "active page is ".$page;
+	echo "active page is \"".$page."\"";
 	function active($p) {
 		global $page;
 		if ($p == $page) {
@@ -94,8 +94,8 @@
     <div class="row">
         <div class="navbar navbar-inverse">
             <ul class="nav navbar-nav nav-justified">
-                <li class="<?php active("news") ?>"><a href="news" class="">Novinky</a> </li>
-                <li class="<?php active("profile") ?>"><a href="profile" class="">Profil</a></li>
+                <li class="<?php active("news") ?>"><a href="?q=news" class="">Novinky</a> </li>
+                <li class="<?php active("profile") ?>"><a href="?q=profile" class="">Profil</a></li>
                 <li><a href="#" class="">Akrobatický&nbsp;stroj</a></li>
                 <li><a href="#" class="">Volná&nbsp;sestava</a></li>
                 <li><a href="#" class="">Výsledky</a></li>
@@ -110,61 +110,13 @@
     </div>
     <div class="row">
         <div class="col-md-9">
-             <div class="panel panel-default">
-                <div class="panel-body" contenteditable="false">
-            
-            <div class="row">
-                <div class="col-md-12">
-                	<h1 class="">Marek Hyka - akrobatický pilot</h1>
-		</div>
-
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="imgs/marek_foto_1_sm.jpg" class="img-responsive">
-                </div>
-                <div class="col-md-8">
-			<p>Jsem akrobatický pilot v kategorii UNLIMITED, člen reprezentace ČR v letecké akrobacii a profesionální air show pilot.</p>
-			<p>Narozen: 23. 2. 1972 v Mělníce.</p>
-			<p>Celkem nalétaných hodin: 600, z toho 400 akrobatických (stav 11/2012).</p>
-			Moje motto:
-			<div class="well well-sm">Cokoli dělám, dělám naplno. Buď se dostanu nahoru, nebo ne.</div>
-		</div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                	<h3 class="">Letecké začátky</h3>
-
-                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra
-                    varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt
-                    condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis
-                    nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor
-                    accumsan. Aliquam in felis sit amet augue.</p>
-		</div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                	<h3 class="">Akrobatická dráha</h3>
-
-                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra
-                    varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt
-                    condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis
-                    nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor
-                    accumsan. Aliquam in felis sit amet augue.</p>
-		</div>
-            </div>
-
-      
-            </div>
-            </div>
-      </div>
+                <!-- include page "<?php echo $page; ?>" -->
+                    <?php include $page.'.page'; ?>
+                <!-- end of include --> 
+        </div>
         <div class="col-md-3">
             <div class="panel panel-default">
                 <div class="panel-heading" contenteditable="false">Nejbližší akce</div>
-                <div class="panel-body" contenteditable="false">Content here..</div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading" contenteditable="false">Novinky</div>
                 <div class="panel-body" contenteditable="false">Content here..</div>
             </div>
             <div class="panel panel-default">
