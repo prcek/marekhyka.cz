@@ -1,8 +1,41 @@
 <div class="panel panel-default">
     <div class="panel-heading" contenteditable="false">Partneři</div> 
     <div class="panel-body" contenteditable="false">
-        <p>Cupcake ipsum dolor sit amet gummies muffin pastry jelly. Ice cream chocolate lollipop biscuit marzipan. Cookie jelly fruitcake brownie jelly beans bonbon. Chocolate danish tootsie roll chupa chups. Jelly beans tiramisu marzipan cupcake applicake gummies powder pastry tiramisu. Dessert tootsie roll jelly beans. Candy canes soufflé oat cake bear claw ice cream jelly beans oat cake toffee dessert. Pie jelly tiramisu croissant tart jujubes sweet.</p>
-        <p> Candy canes powder cookie chocolate cake toffee chocolate cake ice cream. Oat cake jelly beans tiramisu gummi bears lollipop. Soufflé ice cream bonbon soufflé tart biscuit. Biscuit donut applicake marzipan. Liquorice tiramisu lemon drops halvah. Liquorice tart cotton candy bear claw candy croissant. Marzipan bear claw jujubes applicake. Croissant biscuit brownie ice cream jelly beans cheesecake cupcake.</p>
+    	<h3>Za to, že na akrobatickém nebi létám stále výš, vděčím i svým věrným sponzorům a partnerům</h3>
+
+     		<div class="text-center">
+                <img src="imgs/bittner_logo_sm.png"  class="" alt="">
+                <img src="imgs/sport_invest_logo2.png" class="">
+       		</div>
+       		<p>Směřuji opravdu vysoko, a proto uvítám i další silnou a odvážnou podporu. </p>
+
+
+
+		<h3>Staňte se součástí týmu mistra světa a vezmu s sebou vzhůru Vaši značku i Vás osobně!</h3>
+			<p>Společně pak porazíme konkurenci a vyrazíme dech Vašim klientům i médiím.</p>
+
+			<h4>Exkluzívní nabídka pro mé partnery</h4>
+			<ul>
+				<li>Letoun ve Vašich barvách, a to jak na světových soutěžích, tak na air show po celém světě.</li>
+				<li>Umístění Vašeho loga na letounu i na akrobatické kombinéze.</li>
+				<li>Propagace v médiích.</li>
+				<li>Letecká air show na Vašich promo akcích.</li>
+				<li>Létání s Vámi i Vašimi klienty.</li>
+				<li>Akrobatický výcvik pro Vás i Vaše klienty.</li>
+			</ul>
+
+
+    	<h3>Krásné fotky mi věnovali</h3>
+    		<p>Martin HALEŠ - http://www.martinhales.com/</p>
+
+			<p>Stanislav HEMRLE - http://www.hphoto.cz/</p>
+
+			<p>Jiří KOT, Marek HANÁK, Hana VESECKÁ, Iveta LÍBALOVÁ, Milan KUBÍK a další.</p>
+
+			<em> MOC VÁM DĚKUJI!</em>
+
+		
+
     </div> <!-- end of panel-body -->
 </div> <!-- end of panel -->
 
