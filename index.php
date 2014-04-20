@@ -52,7 +52,7 @@
 
 <!--
 <?php 
-	$pages = array("news", "profile", "extra");	
+	$pages = array("news", "profile", "extra", "sestava", "vysledky", "kalendar", "foto", "video", "partneri", "kontakty");	
 	if (isset($_GET["q"])) {
 		$page = $_GET["q"];
 		if (!in_array($page,$pages))  {
@@ -87,7 +87,9 @@
 
     <div class="row">
         <div class="col-md-6">
-	<img src="imgs/hyka_logo_tr.png" class="img-responsive" alt="Responsive image">
+            <a href=".">
+	           <img src="imgs/hyka_logo_tr.png" class="img-responsive" alt="Responsive image">
+            </a>
 	</div>
     </div>
 
@@ -96,14 +98,14 @@
             <ul class="nav navbar-nav nav-justified">
                 <li class="<?php active("news") ?>"><a href="?q=news" class="">Novinky</a> </li>
                 <li class="<?php active("profile") ?>"><a href="?q=profile" class="">Profil</a></li>
-                <li><a href="#" class="">Akrobatický&nbsp;stroj</a></li>
-                <li><a href="#" class="">Volná&nbsp;sestava</a></li>
-                <li><a href="#" class="">Výsledky</a></li>
-                <li><a href="#" class="">Kalendář</a></li>
-                <li><a href="#" class="">Fotogalerie</a></li>
-                <li><a href="#" class="">Video</a></li>
-                <li><a href="#" class="">Partneři</a></li>
-                <li><a href="#" class="">Kontakty</a></li>
+                <li class="<?php active("extra") ?>"><a href="?q=extra" class="">Akrobatický&nbsp;stroj</a></li>
+                <li class="<?php active("sestava") ?>"><a href="?q=sestava" class="">Volná&nbsp;sestava</a></li>
+                <li class="<?php active("vysledky") ?>"><a href="?q=vysledky" class="">Výsledky</a></li>
+                <li class="<?php active("kalendar") ?>"><a href="?q=kalendar" class="">Kalendář</a></li>
+                <li class="<?php active("foto") ?>"><a href="?q=foto" class="">Fotogalerie</a></li>
+                <li class="<?php active("video") ?>"><a href="?q=video" class="">Video</a></li>
+                <li class="<?php active("partneri") ?>"><a href="?q=partneri" class="">Partneři</a></li>
+                <li class="<?php active("kontakty") ?>"><a href="?q=kontakty" class="">Kontakty</a></li>
             </ul>
         </div>
 	<div> </div>
