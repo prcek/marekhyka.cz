@@ -19,25 +19,43 @@
                   
         <div class="row">
             <div class="col-md-12">
-                <h3 class="">Letecké začátky</h3>
+                <h3>Letecké začátky</h3>
 
-                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra
-                    varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt
-                    condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis
-                    nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor
-                    accumsan. Aliquam in felis sit amet augue.</p>
+                <p class="text-justify">Stát se opravdovým akrobatem byl můj sen už od klukovských let, kdy mě táta, 
+                pilot práškovacího Čmeláku, brával s sebou na letiště. V šestnácti jsem si na 
+                brigádě vydělal na rogalo a na něm jsem poprvé sám letěl. Byl to úžasný a absolutně
+                nejlepší pocit. Pořád na ty skoky z kopce vzpomínám.
+                </p>
+
+                <p class="text-justify">Rok na to jsem přesedlal na větroně, ale to neustálé točení termiky mi nedělalo 
+                dobře od žaludku. Přitom jsem pořád vzhlížel k letecké akrobacii jako ke královně
+                leteckých sportů. Až mě kamarád pilot Radim Bagar jednoho dne naučil sudový výkrut. 
+                Hodil letadlo na záda a hrozně se u toho řehtal a řval: Dobrý, ne! Byla to hrozná sranda.
+                I díky němu dnes lítám, co lítám.
+                </p>
         	</div>
         </div>
 
         <div class="row">
             <div class="col-md-12">
-                <h3 class="">Akrobatická dráha</h3>
+                <h3>Akrobatická dráha</h3>
 
-                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra
-                    varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt
-                    condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis
-                    nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor
-                    accumsan. Aliquam in felis sit amet augue.</p>
+                <p class="text-justify">V roce 2003 jsme si našli s Radimem profesionálního trenéra akrobacie, Jiřího Durase,
+                a pod jeho vedením jsme se začali oba pomalu učit umění akrobatické pilotáže.
+                </p>
+
+                <p class="text-justify">Pro mě to bylo zpočátku hodně těžké, pořád mi bylo na zvracení. Ale byl jsem vždy hodně houževnatý, 
+                a tak jsem to překonal. Akrobacie mi za to na oplátku ukázala, co doopravdy znamená pohyb ve trojrozměrném
+                prostoru. A jakmile pak skončil výcvik základní akrobacie, zavolal mi trenér, že mě přihlásil na 
+                mistrovství republiky. To byl můj první závod a já skončil druhý. Tím to vše začalo.
+                </p>
+
+                <p class="text-justify">Soutěžit jsem začínal jako každý na Z142 a Z526, ale chtěl jsem pořád dál a výš, a tak následovalo 
+                silnější letadlo Zlín 50M, kategorie Intermediate a později česká reprezentace pod vedením Stana Bajzíka a Zlín 50LS.
+                Po pořízení letounu Extra 330LC dohromady s Radimem jsem začal létat kategorii advanced a od roku 2010 tu
+                nejvyšší, unlimited. Soupeření na závodech mě asi nikdy neomrzí. Posouvá mou výkonnost pořád dál a zdokonalovat
+                se je dobré, ve všem.
+                </p>
 
         	</div>
         </div>
