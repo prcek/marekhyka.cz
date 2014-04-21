@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Marek Hyka CZ test 1</title>
 
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="Galleries/engine1/style.css" />
+    <script type="text/javascript" src="Galleries/engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="bootstrap.test.css" rel="stylesheet">
