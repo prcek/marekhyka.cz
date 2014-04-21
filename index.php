@@ -10,6 +10,10 @@
     <!-- Start WOWSlider.com HEAD section -->
     <link rel="stylesheet" type="text/css" href="Galleries/engine1/style.css" />
     <script type="text/javascript" src="Galleries/engine1/jquery.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="Galleries/engine2/style.css" />
+    <script type="text/javascript" src="Galleries/engine2/jquery.js"></script>
+
     <!-- End WOWSlider.com HEAD section -->
 
     <!-- Bootstrap -->

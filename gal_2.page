@@ -1,0 +1,23 @@
+<!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container2">
+	<div class="ws_images"><ul>
+<li><img src="Galleries/data2/images/dsa_6597.jpg" alt="DSA_6597" title="DSA_6597" id="wows2_0"/></li>
+</ul></div>
+<div class="ws_thumbs">
+<div>
+<a href="Galleries/data2/images/dsa_6597.jpg" title="DSA_6597"><img src="Galleries/data2/tooltips/dsa_6597.jpg" alt="" /></a>
+<a href="Galleries/data2/images/dsa_6687.jpg" title="DSA_6687"><img src="Galleries/data2/tooltips/dsa_6687.jpg" alt="" /></a>
+<a href="Galleries/data2/images/dsa_7724.jpg" title="DSA_7724"><img src="Galleries/data2/tooltips/dsa_7724.jpg" alt="" /></a>
+<a href="Galleries/data2/images/dsa_62551.jpg" title="DSA_62551"><img src="Galleries/data2/tooltips/dsa_62551.jpg" alt="" /></a>
+<a href="Galleries/data2/images/dsc_3256.jpg" title="DSC_3256"><img src="Galleries/data2/tooltips/dsc_3256.jpg" alt="" /></a>
+<a href="Galleries/data2/images/dsc_6034.jpg" title="DSC_6034"><img src="Galleries/data2/tooltips/dsc_6034.jpg" alt="" /></a>
+<a href="Galleries/data2/images/dsc_6127.jpg" title="DSC_6127"><img src="Galleries/data2/tooltips/dsc_6127.jpg" alt="" /></a>
+<a href="Galleries/data2/images/dsc_6132.jpg" title="DSC_6132"><img src="Galleries/data2/tooltips/dsc_6132.jpg" alt="" /></a>
+</div>
+</div>
+<span class="wsl"><a href="http://wowslider.com">carousel jquery</a> by WOWSlider.com v5.3m</span>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="Galleries/engine2/wowslider.js"></script>
+	<script type="text/javascript" src="Galleries/engine2/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
