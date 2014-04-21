@@ -52,7 +52,7 @@
 
 <!--
 <?php 
-	$pages = array("news", "profile", "extra", "sestava", "vysledky", "kalendar", "foto", "video", "partneri", "kontakty");	
+	$pages = array("news", "profile", "extra", "sestava", "vysledky", "foto", "video", "partneri", "kontakty");	
 	if (isset($_GET["q"])) {
 		$page = $_GET["q"];
 		if (!in_array($page,$pages))  {
@@ -101,7 +101,6 @@
                 <li class="<?php active("extra") ?>"><a href="?q=extra" class="">Akrobatický&nbsp;stroj</a></li>
                 <li class="<?php active("sestava") ?>"><a href="?q=sestava" class="">Volná&nbsp;sestava</a></li>
                 <li class="<?php active("vysledky") ?>"><a href="?q=vysledky" class="">Výsledky</a></li>
-                <li class="<?php active("kalendar") ?>"><a href="?q=kalendar" class="">Kalendář</a></li>
                 <li class="<?php active("foto") ?>"><a href="?q=foto" class="">Fotogalerie</a></li>
                 <li class="<?php active("video") ?>"><a href="?q=video" class="">Video</a></li>
                 <li class="<?php active("partneri") ?>"><a href="?q=partneri" class="">Partneři</a></li>
@@ -119,7 +118,9 @@
         <div class="col-md-3">
             <div class="panel panel-default">
                 <div class="panel-heading" contenteditable="false">Nejbližší akce</div>
-                <div class="panel-body" contenteditable="false">Content here..</div>
+                <div class="panel-body" contenteditable="false">
+                    <?php include 'akce.page'; ?>
+                </div>
             </div>
             <div class="panel panel-default">
                 <div class="panel-heading">Facebook</div>

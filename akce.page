@@ -1,0 +1,38 @@
+
+
+
+<?php 
+
+	$event_list = [
+		[ "29.5. - 1.6. 2014", "Karlovarský pohár, 21. ročník"],
+		[ "18.6. - 21.6. 2014", "MČR v akrobacii motorových letounů v Chotěboři"],
+		[ "23.8. - 30.8. 2014", "FAI EAC 2014 ME v motorové akrobacii Unlimited, Matkopuszta, HUN"]
+
+
+	];
+
+
+	foreach ($event_list as $ev) {
+		$datum = $ev[0];
+		$popis = $ev[1];
+?>
+
+
+
+
+<div class="row">
+	<div class="col-md-2">
+		<h4><span class="glyphicon glyphicon-calendar"></span></h4>
+	</div>
+	<div class="col-md-10">
+		<h4><?php echo $datum;?></h4>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<p class="text-justify"><?php echo $popis;?></p>
+	</div>
+</div>
+
+
+<?php } ?>
