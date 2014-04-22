@@ -50,9 +50,11 @@ max_image_size = (800,600)
 
 target_images_path = os.path.join(target_dir,"imgs")
 target_thumbnails_path = os.path.join(target_dir,"thumbs")
+target_index_file = os.path.join(target_dir,"gallery.links")
 
 print "target_images_path " + target_images_path
 print "target_thumbnails_path " + target_thumbnails_path
+print "target_index_file " + target_index_file
 
 if not os.path.isdir(target_images_path):
 	os.makedirs(target_images_path)
@@ -60,6 +62,8 @@ if not os.path.isdir(target_thumbnails_path):
 	os.makedirs(target_thumbnails_path)
 
 
+o = open(target_index_file, "w")
+o.write("<div id=\"links\">\n")
 for infile in glob.glob(os.path.join(src_dir,"*.jpg")):
 	try:
 		im = Image.open(infile)
@@ -67,12 +71,17 @@ for infile in glob.glob(os.path.join(src_dir,"*.jpg")):
 		fname = os.path.split(infile)[1]
 		th_box(im,thumbnail_box_size).save(os.path.join(target_thumbnails_path,fname))
 		max_box(im,max_image_size).save(os.path.join(target_images_path,fname))
+		ip = os.path.join(html_prefix,target_images_path,fname)
+		tp = os.path.join(html_prefix,target_thumbnails_path,fname)
+		o.write("\t<a href=\"" + ip + "\" data-gallery>\n")
+		o.write("\t\t<img src=\"" + tp + "\">\n")
+		o.write("\t</a>\n")
 
 	except IOError:
             print "cannot process ", infile		
 
 
-#im = Image.open("test.jpg")
-#im=th_box(im,128)
-#im=max_box(im,(10,50))
-#im.show()
+o.write("</div>\n")
+o.close()
+
+
