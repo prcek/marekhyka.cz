@@ -1,0 +1,82 @@
+<div id="links-gallery-afc_2012">
+	<a href="gal/afc_2012/imgs/DSC_0989.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/DSC_0989.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/DSC_1010-1.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/DSC_1010-1.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/DSC_1011.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/DSC_1011.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/DSC_1248.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/DSC_1248.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/DSC_1289.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/DSC_1289.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/DSC_1299.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/DSC_1299.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/DSC_1550.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/DSC_1550.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/DSC_1948.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/DSC_1948.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM1_2759.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM1_2759.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM1_2763.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM1_2763.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM1_2772.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM1_2772.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM1_2895.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM1_2895.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM1_2961.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM1_2961.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM1_2970.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM1_2970.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM1_2984.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM1_2984.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM1_2985.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM1_2985.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM2_1482.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM2_1482.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM2_1484.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM2_1484.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM2_1485.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM2_1485.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM2_1487.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM2_1487.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM2_1489.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM2_1489.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM2_1544.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM2_1544.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/afc_2012/imgs/HM2_1833.jpg" data-gallery>
+		<img src="gal/afc_2012/thumbs/HM2_1833.jpg" class="img-responsive pull-left">
+	</a>
+</div>
+
+    <script>
+    document.getElementById('links-gallery-afc_2012').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+    </script>

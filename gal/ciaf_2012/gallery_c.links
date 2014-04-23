@@ -1,0 +1,26 @@
+<div id="blueimp-gallery-carousel-ciaf_2012" class="blueimp-gallery blueimp-gallery-controls  blueimp-gallery-carousel">
+	<div class="slides"></div>
+	<h3 class="title"></h3>
+	<a class="prev">‹</a>
+	<a class="next">›</a>
+	<a class="play-pause"></a>
+	<ol class="indicator"></ol>
+</div>
+<div id="links-gallery-carousel-ciaf_2012">
+	<a href="gal/ciaf_2012/imgs/DSA_62551.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2012/imgs/DSA_6597.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2012/imgs/DSA_6687.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2012/imgs/DSA_7724.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2012/imgs/DSC_3256.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2012/imgs/DSC_6034.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2012/imgs/DSC_6127.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2012/imgs/DSC_6132.jpg" data-gallery>
+	</a>
+</div>

@@ -2,17 +2,22 @@
     <div class="panel-heading" contenteditable="false">Fotogalerie</div> 
     <div class="panel-body" contenteditable="false">
 
+
+    <h2>AEROBATIC FREESTYLE CHALLENGE 2013 PRAHA</h2>
+    <p>Autor: Martin HALEŠ</p>
+    <?php include "gal/afc_2013/gallery_c.links"; ?>
+    <hr>
+
     <h2>AEROBATIC FREESTYLE CHALLENGE 2012 PRAHA</h2>
-	<p>Autoři: Hana VESECKÁ, Martin HALEŠ, Stanislav HEMRLE, Milan KUBÍK, Iveta LÍBALOVÁ</p>
-    <?php include "gal_1.page"; ?>
+    <p>Autoři: Hana VESECKÁ, Martin HALEŠ, Stanislav HEMRLE, Milan KUBÍK, Iveta LÍBALOVÁ</p>
+    <?php include "gal/afc_2012/gallery_c.links"; ?>
     <hr>
 
 
     <h2>CIAF 2012 Hradec Králové</h2>
 	<p>Autor: Marek HANÁK</p>
-    <?php include "gal_2.page"; ?>
+    <?php include "gal/ciaf_2012/gallery_c.links"; ?>
     <hr>
-
 
 
     </div> <!-- end of panel-body -->

@@ -36,8 +36,8 @@ def max_box(im,maxdim):
 
 	return im.resize((new_dx,new_dy), Image.ANTIALIAS)
 
-src_dir = "./src/trencin_1"
-target_dir = "gal_trencin_1"
+src_dir = "./src/ciaf_2012"
+target_dir = "ciaf_2012"
 html_prefix = "gal"
 thumbnail_box_size = 75
 max_image_size = (800,600)
@@ -69,7 +69,7 @@ if not os.path.isdir(target_thumbnails_path):
 
 
 c = open(target_index_file_c, "w")
-c.write("<div id=\"blueimp-gallery-carousel-"+gallery_name+"\" class=\"blueimp-gallery blueimp-gallery-carousel\">\n\
+c.write("<div id=\"blueimp-gallery-carousel-"+gallery_name+"\" class=\"blueimp-gallery blueimp-gallery-controls  blueimp-gallery-carousel\">\n\
 \t<div class=\"slides\"></div>\n\t<h3 class=\"title\"></h3>\n\t<a class=\"prev\">‹</a>\n\
 \t<a class=\"next\">›</a>\n\t<a class=\"play-pause\"></a>\n\t<ol class=\"indicator\"></ol>\n</div>\n")
 
