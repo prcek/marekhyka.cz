@@ -175,6 +175,20 @@
 
 
     <script src="js/blueimp-gallery.min.js"></script>
+    <script>
+        $("div[id^='blueimp-gallery-carousel-']").each( function function_name (index) {
+            var links = this.id.replace("blueimp-gallery-carousel-","links-gallery-carousel-");
+
+            blueimp.Gallery( 
+                document.getElementById(links).getElementsByTagName('a'), {
+                    container: '#'+this.id,
+                    carousel: true,
+                    startSlideshow: false
+                });
+
+
+        } );
+    </script>
 
     
   </body>

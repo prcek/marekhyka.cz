@@ -1,0 +1,22 @@
+<div id="blueimp-gallery-carousel-gal_trencin_1" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel">
+	<div class="slides"></div>
+	<h3 class="title"></h3>
+	<a class="prev">‹</a>
+	<a class="next">›</a>
+	<a class="play-pause"></a>
+	<ol class="indicator"></ol>
+</div>
+<div id="links-gallery-carousel-gal_trencin_1">
+	<a href="gal/gal_trencin_1/imgs/DSC_0065.jpg" data-gallery>
+	</a>
+	<a href="gal/gal_trencin_1/imgs/DSC_0076.jpg" data-gallery>
+	</a>
+	<a href="gal/gal_trencin_1/imgs/DSC_0094.jpg" data-gallery>
+	</a>
+	<a href="gal/gal_trencin_1/imgs/DSC_0100.jpg" data-gallery>
+	</a>
+	<a href="gal/gal_trencin_1/imgs/DSC_0110.jpg" data-gallery>
+	</a>
+	<a href="gal/gal_trencin_1/imgs/DSC_0117.jpg" data-gallery>
+	</a>
+</div>

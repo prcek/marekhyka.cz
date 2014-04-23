@@ -8,7 +8,7 @@
     <h3> g 1 </h3>
     <div class="row">
     <div class="col-md-12">
-        <?php include "gal/gal_trencin_1/gallery.links"; ?>
+        <?php include "gal/gal_trencin_1/gallery_c.links"; ?>
     </div>
     </div>
 
