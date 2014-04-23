@@ -1,0 +1,21 @@
+<div id="links-gallery-gal_trencin_1">
+	<a href="gal/gal_trencin_1/imgs/DSC_0065.jpg" data-gallery>
+		<img src="gal/gal_trencin_1/thumbs/DSC_0065.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/gal_trencin_1/imgs/DSC_0076.jpg" data-gallery>
+		<img src="gal/gal_trencin_1/thumbs/DSC_0076.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/gal_trencin_1/imgs/DSC_0094.jpg" data-gallery>
+		<img src="gal/gal_trencin_1/thumbs/DSC_0094.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/gal_trencin_1/imgs/DSC_0100.jpg" data-gallery>
+		<img src="gal/gal_trencin_1/thumbs/DSC_0100.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/gal_trencin_1/imgs/DSC_0110.jpg" data-gallery>
+		<img src="gal/gal_trencin_1/thumbs/DSC_0110.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/gal_trencin_1/imgs/DSC_0117.jpg" data-gallery>
+		<img src="gal/gal_trencin_1/thumbs/DSC_0117.jpg" class="img-responsive pull-left">
+	</a>
+</div>
+    <script>    document.getElementById('links-gallery-gal_trencin_1').onclick = function (event) {        event = event || window.event;        var target = event.target || event.srcElement,            link = target.src ? target.parentNode : target,            options = {index: link, event: event},            links = this.getElementsByTagName('a');        blueimp.Gallery(links, options);    };    </script>

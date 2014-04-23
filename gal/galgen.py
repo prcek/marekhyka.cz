@@ -35,9 +35,9 @@ def max_box(im,maxdim):
 
 	return im.resize((new_dx,new_dy), Image.ANTIALIAS)
 
-src_dir = "."
-target_dir = "gal1"
-html_prefix = "tools"
+src_dir = "./src/trencin_1"
+target_dir = "gal_trencin_1"
+html_prefix = "gal"
 thumbnail_box_size = 75
 max_image_size = (800,600)
 
