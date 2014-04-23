@@ -38,7 +38,7 @@ def max_box(im,maxdim):
 src_dir = "."
 target_dir = "gal1"
 html_prefix = "tools"
-thumbnail_box_size = 128
+thumbnail_box_size = 75
 max_image_size = (800,600)
 
 
@@ -47,7 +47,7 @@ max_image_size = (800,600)
 
 
 
-
+gallery_name = target_dir.replace("/", "_")
 target_images_path = os.path.join(target_dir,"imgs")
 target_thumbnails_path = os.path.join(target_dir,"thumbs")
 target_index_file = os.path.join(target_dir,"gallery.links")
@@ -55,6 +55,9 @@ target_index_file = os.path.join(target_dir,"gallery.links")
 print "target_images_path " + target_images_path
 print "target_thumbnails_path " + target_thumbnails_path
 print "target_index_file " + target_index_file
+print "gallery_name " + gallery_name
+
+
 
 if not os.path.isdir(target_images_path):
 	os.makedirs(target_images_path)
@@ -63,7 +66,7 @@ if not os.path.isdir(target_thumbnails_path):
 
 
 o = open(target_index_file, "w")
-o.write("<div id=\"links\">\n")
+o.write("<div id=\"links-gallery-"+gallery_name+"\">\n")
 for infile in glob.glob(os.path.join(src_dir,"*.jpg")):
 	try:
 		im = Image.open(infile)
@@ -74,7 +77,7 @@ for infile in glob.glob(os.path.join(src_dir,"*.jpg")):
 		ip = os.path.join(html_prefix,target_images_path,fname)
 		tp = os.path.join(html_prefix,target_thumbnails_path,fname)
 		o.write("\t<a href=\"" + ip + "\" data-gallery>\n")
-		o.write("\t\t<img src=\"" + tp + "\">\n")
+		o.write("\t\t<img src=\"" + tp + "\" class=\"img-responsive pull-left\">\n")
 		o.write("\t</a>\n")
 
 	except IOError:
@@ -82,6 +85,21 @@ for infile in glob.glob(os.path.join(src_dir,"*.jpg")):
 
 
 o.write("</div>\n")
+
+
+o.write("\
+    <script>\
+    document.getElementById('links-gallery-"+gallery_name+"').onclick = function (event) {\
+        event = event || window.event;\
+        var target = event.target || event.srcElement,\
+            link = target.src ? target.parentNode : target,\
+            options = {index: link, event: event},\
+            links = this.getElementsByTagName('a');\
+        blueimp.Gallery(links, options);\
+    };\
+    </script>\
+")
+
 o.close()
 
 

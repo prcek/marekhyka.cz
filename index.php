@@ -20,8 +20,8 @@
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="bootstrap.test.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap-image-gallery.css"> -->
 
    <style>
     .navbar-nav>li {
@@ -163,9 +163,19 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
 
-    <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-    <script src="js/bootstrap-image-gallery.min.js"></script>
-  
+
+    <script src="js/blueimp-gallery.min.js"></script>
+
+    
   </body>
 </html>
