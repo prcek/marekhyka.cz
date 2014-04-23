@@ -56,7 +56,7 @@
 
 <!--
 <?php 
-	$pages = array("news", "profile", "extra", "sestava", "vysledky", "foto", "video", "partneri", "kontakty", "test");	
+	$pages = array("news", "profile", "extra", "sestava", "vysledky", "foto", "video", "partneri", "kontakty", "tiskova_1", "test");	
 	if (isset($_GET["q"])) {
 		$page = $_GET["q"];
 		if (!in_array($page,$pages))  {
@@ -72,6 +72,13 @@
 			echo "active";
 		}
 	}
+    function btn_link($href,$text) {
+        echo "<a href=\"".$href."\" class=\"btn btn-primary btn-xs\">".$text." <i class=\"glyphicon glyphicon-arrow-right\"></i></a>";
+    }
+    function btn_blink($href,$text) {
+        echo "<a href=\"".$href."\" class=\"btn btn-default btn-xs\"> <i class=\"glyphicon glyphicon-arrow-left\"></i> ".$text."</a>";
+    }
+
 ?>
 -->
  
@@ -128,10 +135,11 @@
             </div>
             <div class="panel panel-default">
                 <div class="panel-heading">Facebook</div>
-                <div class="panel-body">Content here..</div>
+                <div class="panel-body">Content here...</div>
             </div>
         </div>
     </div>
+    <br>
     <div class="row">
 	    <div class="panel">
             <div class="panel-heading text-center">Partenři a sponzoři</div>

@@ -5,8 +5,7 @@
         <img src="imgs/extra_real_4.jpg" style="width: 210px; margin-right:20px;" class="pull-left img-responsive img-rounded"> 
         -->
         <p>Kdo se chce podívat na náš trénink a přípravu, najdete nás každé pondělky a úterky v Trenčíně.</p>
-            <?php include "gal/gal_trencin_1/gallery.links"; ?>
-    
+        <div class="clearfix"><?php include "gal/gal_trencin_1/gallery.links"; ?></div>
     </div> <!-- end of panel-body -->
 </div> <!-- end of panel -->
 
@@ -19,8 +18,10 @@
         -->
         <p>V létě 2013 jsem měl vážné technické problémy se svým speciálem Xtremeair XP30, které se mi dosud nepodařilo vyřešit. Proto jsem s radostí přijal nabídku – létat pro společnost Bittner-Audio ze Slovenska, se kterou jsem uzavřel roční kontrakt, díky němuž budu v nadcházející sezóně létat na špičkovém stroji Extra 330SC.
         </p>
-               <?php include "gal/extra_1/gallery.links"; ?>
-    
+        <div class="clearfix"><?php include "gal/extra_1/gallery.links"; ?></div><br>
+        <div class="pull-right"> 
+            <?php btn_link("?q=tiskova_1","Více v tiskové zprávě"); ?>
+        </div>
     </div> <!-- end of panel-body -->
 </div> <!-- end of panel -->
 
