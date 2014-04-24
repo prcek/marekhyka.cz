@@ -26,8 +26,9 @@
     }
 
     .panel-heading {
-	padding: 5px 10px;
-        font-size: 15px;
+	   padding: 5px 10px;
+       font-size: 15px;
+       text-transform:uppercase;
     }
 
     div#bgtest {
