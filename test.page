@@ -1,7 +1,8 @@
 <div class="panel panel-default">
     <div class="panel-heading" contenteditable="false">Fotogalerie</div> 
     <div class="panel-body" contenteditable="false">
-
+ 
+    <p class="lead"> test </p>
 
     <h3> g 1 </h3>
     <div class="row">
