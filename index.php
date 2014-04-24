@@ -128,8 +128,8 @@
         </div>
         <div class="col-md-3">
             <div class="panel panel-default">
-                <div class="panel-heading" contenteditable="false">Nejbližší akce</div>
-                <div class="panel-body" contenteditable="false">
+                <div class="panel-heading">Nejbližší akce</div>
+                <div class="panel-body">
                     <?php include 'akce.page'; ?>
                 </div>
             </div>
@@ -144,13 +144,15 @@
     <br>
     <div class="row">
 	    <div class="panel">
-            <div class="panel-heading text-center">Partenři a sponzoři</div>
+            <div class="panel-heading text-center">Partneři a sponzoři</div>
             <div class="panel-body text-center">
-                <img src="imgs/bittner_logo_sm.png"  class="" alt="">
-                <img src="imgs/sport_invest_logo.png" class="">
+                <img src="imgs/bittner_logo_sm.png"  class="">
+                <img src="imgs/sport_invest_logo2.png" class="">
+            <!--
                 <img src="//placehold.it/220x100" class=""> 
                 <img src="imgs/boxer_logo_sm.png"  class="" alt="">
                 <img src="//placehold.it/220x100" class=""> 
+            -->
             </div>
         </div>
     </div>
