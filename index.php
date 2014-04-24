@@ -135,7 +135,9 @@
             </div>
             <div class="panel panel-default">
                 <div class="panel-heading">Facebook</div>
-                <div class="panel-body">Content here...</div>
+                <div class="panel-body">
+                    <?php include 'fb.page'; ?>
+                </div>
             </div>
         </div>
     </div>
