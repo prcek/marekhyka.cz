@@ -6,17 +6,18 @@ try
 }
 catch(Exception $e)
 {
-  print $e;
+  print "can't decode payload";
   exit(0);
 }
 
-file_put_contents('logs/github.txt', print_r($payload, TRUE), FILE_APPEND);
+file_put_contents('logs/git_hook.log', print_r($payload, TRUE), FILE_APPEND);
 
 if ($payload->ref == 'refs/heads/master')
 {
   print "update triggered";
-  exec('./update.sh');
+  exec('./git_pull.sh');
 } else {
+
 }
 
 ?>
