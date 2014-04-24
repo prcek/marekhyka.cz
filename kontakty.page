@@ -9,8 +9,11 @@
        
 
         <h3>Letiště Sazená – Kralupy nad Vltavou</h3>
-        
+     <!--   
         <iframe src="http://maps.google.cz/maps?hl=cs&amp;q=leti%C5%A1t%C4%9B+sazen%C3%A1&amp;ie=UTF8&amp;hq=leti%C5%A1t%C4%9B+sazen%C3%A1&amp;t=h&amp;brcurrent=5,0,0&amp;ll=50.324303,14.260552&amp;spn=0.017955,0.017806&amp;output=embed" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="425" height="350"></iframe>
+    -->
+
+<iframe frameBorder="0" style="border:none" width="100%" height="600" src="//api4.mapy.cz/frame?w=850&amp;h=600&amp;x=14.25888612131058&amp;y=50.32471948586808&amp;z=12&amp;o=0&amp;url=http://mapy.cz/s/9Jsp&amp;mini=1&amp;layer=2"></iframe>
 
     </div> <!-- end of panel-body -->
 </div> <!-- end of panel -->
