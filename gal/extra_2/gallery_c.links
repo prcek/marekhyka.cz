@@ -1,0 +1,26 @@
+<div id="blueimp-gallery-carousel-extra_2" class="blueimp-gallery blueimp-gallery-controls  blueimp-gallery-carousel">
+	<div class="slides"></div>
+	<h3 class="title"></h3>
+	<a class="prev">‹</a>
+	<a class="next">›</a>
+	<a class="play-pause"></a>
+	<ol class="indicator"></ol>
+</div>
+<div id="links-gallery-carousel-extra_2">
+	<a href="gal/extra_2/imgs/DSC_0065.jpg" data-gallery>
+	</a>
+	<a href="gal/extra_2/imgs/DSC_0094.jpg" data-gallery>
+	</a>
+	<a href="gal/extra_2/imgs/DSC_0096.jpg" data-gallery>
+	</a>
+	<a href="gal/extra_2/imgs/DSC_0116.jpg" data-gallery>
+	</a>
+	<a href="gal/extra_2/imgs/DSC_0117.jpg" data-gallery>
+	</a>
+	<a href="gal/extra_2/imgs/DSC_0125.jpg" data-gallery>
+	</a>
+	<a href="gal/extra_2/imgs/DSC_0144.jpg" data-gallery>
+	</a>
+	<a href="gal/extra_2/imgs/DSC_2046.jpg" data-gallery>
+	</a>
+</div>
