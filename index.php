@@ -147,8 +147,12 @@
 	    <div class="panel">
             <div class="panel-heading text-center">Partneři a sponzoři</div>
             <div class="panel-body text-center">
-                <img src="imgs/bittner_logo_sm.png"  class="">
-                <img src="imgs/sport_invest_logo2.png" class="">
+                <a href="http://www.bittner-audio.com">
+                    <img src="imgs/bittner_logo_sm.png"  class="">
+                </a>
+                <a href="http://www.sport-invest.cz">
+                    <img src="imgs/sport_invest_logo2.png" class="">
+                </a>
             <!--
                 <img src="//placehold.it/220x100" class=""> 
                 <img src="imgs/boxer_logo_sm.png"  class="" alt="">
