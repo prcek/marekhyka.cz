@@ -22,6 +22,46 @@ def th_box(im,d):
 	crop_box = (left_x,top_y,right_x,bottom_y)
 	return im.crop(crop_box).resize((d,d),Image.ANTIALIAS)
 
+
+def th(im,s):
+	(dx,dy) = im.size
+	(tdx,tdy) = s
+
+	xr = float(dx)/tdx
+	yr = float(dy)/tdy
+
+
+#	print "x ratio is " + str(xr)
+#	print "y ratio is " + str(yr)
+
+	if (xr<yr):
+#		print "x ratio < y ratio"
+		ny = int(dy / xr)
+		top_y = (ny-tdy) / 2
+		bottom_y = top_y + tdy
+#		print "new dy is " + str(ny)
+#		print "top_y is " + str(top_y)
+#		print "bottom_y is " + str(bottom_y)
+		crop_box=(0,top_y,tdx,bottom_y)
+		return im.resize((tdx,ny),Image.ANTIALIAS).crop(crop_box)
+
+	else:
+#		print "y ratio < x ratio"
+		nx = int(dx / yr)
+		left_x = (nx - tdx) / 2
+		right_x = left_x + tdx
+#		print "new dx is " + str(nx)
+#		print "left_x is " + str(left_x)
+#		print "right_x is " + str(right_x)
+		crop_box=(left_x,0,right_x,tdy)
+
+		return im.resize((nx,tdy),Image.ANTIALIAS).crop(crop_box)
+
+
+
+
+
+
 def max_box(im,maxdim):
 	(max_dx,max_dy) = maxdim
 	(dx,dy) = im.size
@@ -36,10 +76,12 @@ def max_box(im,maxdim):
 
 	return im.resize((new_dx,new_dy), Image.ANTIALIAS)
 
-src_dir = "./src/extra_2"
-target_dir = "extra_2"
+src_dir = "./src/sestava_1"
+target_dir = "sestava_1"
 html_prefix = "gal"
-thumbnail_box_size = 75
+#thumbnail_box_size = 75
+
+thumbnail_size = (188,280)
 max_image_size = (800,600)
 
 
@@ -81,7 +123,8 @@ for infile in glob.glob(os.path.join(src_dir,"*.jpg")):
 		im = Image.open(infile)
 		print infile + " " + str(im.size)
 		fname = os.path.split(infile)[1]
-		th_box(im,thumbnail_box_size).save(os.path.join(target_thumbnails_path,fname))
+#		th_box(im,thumbnail_box_size).save(os.path.join(target_thumbnails_path,fname))
+		th(im,thumbnail_size).save(os.path.join(target_thumbnails_path,fname))
 		max_box(im,max_image_size).save(os.path.join(target_images_path,fname))
 		ip = os.path.join(html_prefix,target_images_path,fname)
 		tp = os.path.join(html_prefix,target_thumbnails_path,fname)
