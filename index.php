@@ -25,6 +25,11 @@
       font-size: 18px;
     }
 
+    .navbar-inverse .navbar-nav > .active > a {
+        color: white;
+    }
+
+ 
     .panel-heading {
 	   padding: 5px 10px;
        font-size: 15px;
