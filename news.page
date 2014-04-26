@@ -25,3 +25,18 @@
     </div> <!-- end of panel-body -->
 </div> <!-- end of panel -->
 
+
+
+<div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">Rozhovor pro Aeroweb.cz</div> 
+    <div class="panel-body" contenteditable="false">
+        <!--
+        <img src="imgs/extra_real_1.jpg" style="width: 210px; margin-right:20px;" class="pull-left img-responsive img-rounded"> 
+        -->
+        <p>Chcete se dozvědět více o tom, čemu se věnuji, co mě baví a naplňuje? Přečtěte si rozhovor, který jsem poskytl pro Aeroweb.cz.</p>
+        <div class="pull-right"> 
+            <?php btn_link("http://www.aeroweb.cz/clanek.asp?ID=3793","Rozhovor na Aerowebu"); ?>
+        </div>
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
