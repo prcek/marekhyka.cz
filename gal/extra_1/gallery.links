@@ -1,4 +1,4 @@
-<div id="links-gallery-extra_1">
+<div class="gal" id="links-gallery-extra_1">
 	<a href="gal/extra_1/imgs/DSC_1983.jpg" data-gallery>
 		<img src="gal/extra_1/thumbs/DSC_1983.jpg" class="img-responsive pull-left">
 	</a>

@@ -46,6 +46,17 @@
     div#page {
         background-color: rgba(255,255,255,1);
     }
+
+
+    .gal > a > img {
+        border: 2px solid #eeeeff;
+    }
+
+    .gal > a > img:hover {
+        border: 2px solid #17438a;
+        border-radius: 2px;
+    }
+
   </style>
 
   
