@@ -164,9 +164,9 @@
             <div class="panel-heading text-center">Partneři a sponzoři</div>
             <div class="panel-body text-center">
                 <a href="http://www.bittner-audio.com">
-                    <img src="imgs/bittner_logo_sm.png"  class="">
+                    <img src="imgs/ba-logo.png"  class="">
                 </a>
-                <a href="http://www.sport-invest.cz">
+                <a href="http://www.sport-invest.cz/seznam-sportovcu/ostatni/hyka-marek">
                     <img src="imgs/sport_invest_logo2.png" class="">
                 </a>
             <!--
@@ -197,6 +197,11 @@
         <ol class="indicator"></ol>
     </div>
 
+
+    <div id="blueimp-image" class="blueimp-gallery blueimp-gallery-controls">
+        <div class="slides"></div>
+        <a class="close">×</a>
+    </div>
 
     <script src="js/blueimp-gallery.min.js"></script>
     <script>
