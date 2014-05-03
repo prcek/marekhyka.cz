@@ -2,7 +2,7 @@
     <div class="panel-heading" contenteditable="false">EXTRA 330 SC</div> 
     <div class="panel-body" contenteditable="false">
     	<p>EXTRA 330 SC je jednomístný akrobatický dolnoplošník s ostruhovým podvozkem. Nabízí neuvěřitelný akrobatický
-            výkon pro nejvyšší kategorii UNLIMITED.<p>
+            výkon pro kategorii UNLIMITED.<p>
 
 
         <?php include "gal/extra_2/gallery_c.links"; ?>

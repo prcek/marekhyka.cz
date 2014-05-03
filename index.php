@@ -126,7 +126,7 @@
             <ul class="nav navbar-nav nav-justified">
                 <li class="<?php active("news") ?>"><a href="?q=news" class="">Novinky</a> </li>
                 <li class="<?php active("profile") ?>"><a href="?q=profile" class="">Profil</a></li>
-                <li class="<?php active("extra") ?>"><a href="?q=extra" class="">Akrobatický&nbsp;stroj</a></li>
+                <li class="<?php active("extra") ?>"><a href="?q=extra" class="">Letoun</a></li>
                 <li class="<?php active("sestava") ?>"><a href="?q=sestava" class="">Volná&nbsp;sestava</a></li>
                 <li class="<?php active("vysledky") ?>"><a href="?q=vysledky" class="">Výsledky</a></li>
                 <li class="<?php active("foto") ?>"><a href="?q=foto" class="">Fotogalerie</a></li>
