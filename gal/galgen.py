@@ -116,7 +116,7 @@ c.write("<div id=\"blueimp-gallery-carousel-"+gallery_name+"\" class=\"blueimp-g
 \t<a class=\"next\">›</a>\n\t<a class=\"play-pause\"></a>\n\t<ol class=\"indicator\"></ol>\n</div>\n")
 
 o = open(target_index_file, "w")
-o.write("<div id=\"links-gallery-"+gallery_name+"\">\n")
+o.write("<div class=\"gal\" id=\"links-gallery-"+gallery_name+"\">\n")
 c.write("<div id=\"links-gallery-carousel-"+gallery_name+"\">\n")
 for infile in glob.glob(os.path.join(src_dir,"*.jpg")):
 	try:

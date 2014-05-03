@@ -2,7 +2,7 @@
     <div class="panel-heading" contenteditable="false">Výsledky</div> 
     <div class="panel-body" contenteditable="false">
 
-
+<!--
 
 		<p class="text-justify">Vloni jsme s mým týmem přivezli do ČR akrobatický speciál XP 30, který je u nás jediným svého druhu. 
 		Trénovali jsme spolu jen pár týdnů před Karlovarským Pohárem v Toužimi. Následovalo exhibiční vystoupení 
@@ -13,9 +13,9 @@
 		Evropy v Dubnici nad Váhom a v září  letecké show CIAF 2012 v Hradci Králové.
 		</p>
 
-
 		<h3> Akrobatické výsledky </h3>
 
+-->
 
 		<ul>
 			<li>8. místo Mistrovství Evropy 2012 Dubnica nad Váhom – Free unlimited</li>
@@ -35,13 +35,13 @@
 			<li>3. místo Mistrovství ČR 2006, intermediate</li>
 			<li>3. místo Mistrovství ČR 2005, intermediate</li>
 		</ul>
-
+<!--
     	<h3>Trénink</h3>
     	<p class="text-justify">Kromě fyzické přípravy a dvoufázovému tréninku pod vedením Jonáše Petříka světového šampiona
     	bojových umění, se celoročně věnuji také běhu, posilování a v zimě hodně lyžuji.  
     	Důležité je získat pružnost, rychlost  a koordinaci celého těla. Trénink s Jonášem si velmi pochvaluji.
     	</p>
-
+-->
     </div> <!-- end of panel-body -->
 </div> <!-- end of panel -->
 
