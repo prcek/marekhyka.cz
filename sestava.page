@@ -2,7 +2,7 @@
     <div class="panel-heading" contenteditable="false">Volná sestava</div> 
     <div class="panel-body" contenteditable="false">
         <img src="imgs/sestava_top.jpg" class="img-responsive img-rounded">
-        
+<!--
         <h3>Moje volná sestava</h3>
         <p class="text-justify">Free sestava, kterou létám je vzhledem k množství 45° prvků stavěná spíše na 
         ruský letoun SU. Rychlý XA 41 může v těchto úhlech snadněji vylétávat z boxu – předepsaného 
@@ -10,6 +10,7 @@
         Celá sestava je však dělaná matematicky, na jistotu, nemá velké bodové rozdíly v jednotlivých
         figurách, ani složité kombinace. Maximální počet bodů, kterého s ní mohu dosáhnout je 420, tedy pravidly dané maximum.
     	</p>
+-->
 
 <!--
 		<p class="text-justify">Jako ne příliš složitá, není tato sestava ani moc efektní, a to mi vůbec nesedí. 
@@ -19,8 +20,8 @@
 -->
 
 
-		<h3>A jak to vypadá za letu?</h3>
-		<p class="text-justify">Po startu stoupám podél na zemi vytyčeného boxu, mapuji si terén, ukládám do hlavy
+      	<h3>Moje volná sestava</h3>
+  		<p class="text-justify">Po startu stoupám podél na zemi vytyčeného boxu, mapuji si terén, ukládám do hlavy
 		každou podrobnost, a přitom promýšlím snos větru. Nálet do boxu provádím z velké výšky
 		ze zatáčky do klesání 45° a letadlo namířím přesně do bodu, kam potřebuji, jako při
 		náletu na lokomotivu. Sestava začíná trojím mávnutím křídel jako znamení pro rozhodčí.
@@ -43,6 +44,17 @@
 		dva výkruty za sebou, a pak dlouhý přechod do vertikály na +8G, 4×8 dob a přechod
 		na záda. A to teprve končí druhá z celkem devíti figur.
 		</p>
+
+
+     	<div class="clearfix"><?php include "gal/sestava_1/gallery.links"; ?></div>
+  
+
+		<h3>A jak to vypadá za letu?</h3>
+
+		<div class="text-center">
+	    	<iframe src="http://www.youtube.com/embed/d0bWXu9E3XU?wmode=transparent" height="315" width="560" frameborder="0"></iframe>
+		</div>
+
 
     </div> <!-- end of panel-body -->
 </div> <!-- end of panel -->

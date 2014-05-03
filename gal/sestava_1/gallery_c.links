@@ -1,0 +1,16 @@
+<div id="blueimp-gallery-carousel-sestava_1" class="blueimp-gallery blueimp-gallery-controls  blueimp-gallery-carousel">
+	<div class="slides"></div>
+	<h3 class="title"></h3>
+	<a class="prev">‹</a>
+	<a class="next">›</a>
+	<a class="play-pause"></a>
+	<ol class="indicator"></ol>
+</div>
+<div id="links-gallery-carousel-sestava_1">
+	<a href="gal/sestava_1/imgs/sestava1.jpg" data-gallery>
+	</a>
+	<a href="gal/sestava_1/imgs/sestava2.jpg" data-gallery>
+	</a>
+	<a href="gal/sestava_1/imgs/sestava3.jpg" data-gallery>
+	</a>
+</div>
