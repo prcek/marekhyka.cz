@@ -73,8 +73,23 @@
 
 <!--
 <?php 
+
+
+    $langs = array("cs","en");
 	$pages = array("news", "profile", "extra", "sestava", "vysledky", "foto", "video", "partneri", "kontakty", "tiskova_1", "test");	
-	if (isset($_GET["q"])) {
+	
+
+
+    if (isset($_GET["l"])) {
+        $lang = $_GET["l"];
+        if (!in_array($lang,$langs))  {
+            $lang = $langs[0];
+        }
+    } else {
+        $lang = $langs[0];
+    }
+
+    if (isset($_GET["q"])) {
 		$page = $_GET["q"];
 		if (!in_array($page,$pages))  {
 			$page = $pages[0];
@@ -82,13 +97,40 @@
 	} else {
 		$page = $pages[0];
 	}
-	echo "active page is \"".$page."\"";
+
+    echo "active lang is \"".$lang."\"";
+    echo "active page is \"".$page."\"";
 	function active($p) {
 		global $page;
 		if ($p == $page) {
 			echo "active";
 		}
 	}
+
+    function active_lang($l) {
+        global $lang;
+        if ($l == $lang) {
+            echo "active";
+        }
+    }
+
+    function is_lang($l) {
+        global $lang;
+        return ($l == $lang);
+    }
+
+
+    function href_page($p) {
+        global $lang;
+        echo "?q=".$p."&l=".$lang;
+    
+    }
+
+    function href_lang($l) {
+        global $page;
+        echo "?q=".$page."&l=".$l;
+    }
+
     function btn_link($href,$text) {
         echo "<a href=\"".$href."\" class=\"btn btn-primary btn-xs\">".$text." <i class=\"glyphicon glyphicon-arrow-right\"></i></a>";
     }
@@ -105,10 +147,9 @@
 
 <div class="container visible-lg visible-md" id="bgtest">
 	<div class="row">
-        	<div class="col-md-offset-6 col-md-5">
-			<!-- <img src="//placehold.it/475x475" class=""> -->
-			<img src="imgs/extra_2_sm_tr.png" class="img-responsive" alt="Responsive image">
-		</div>
+            <div class="col-md-offset-6 col-md-5">
+                <img src="imgs/extra_2_sm_tr.png" class="img-responsive" alt="Responsive image">
+            </div>
 	</div>
 </div>
 
@@ -118,29 +159,45 @@
             <a href=".">
 	           <img src="imgs/hyka_logo_tr.png" class="img-responsive" alt="Responsive image">
             </a>
-	</div>
+        </div>
+        <div class="pull-right">
+            <?php if (is_lang('cs')) { ?>
+                <a href="<?php href_lang('en'); ?>">EN</a>
+            <?php } else { ?>
+                <a href="<?php href_lang('cs'); ?>">CS</a>
+            <?php } ?>
+        </div>
     </div>
 
     <div class="row">
         <div class="navbar navbar-inverse">
             <ul class="nav navbar-nav nav-justified">
-                <li class="<?php active("news") ?>"><a href="?q=news" class="">Novinky</a> </li>
-                <li class="<?php active("profile") ?>"><a href="?q=profile" class="">Profil</a></li>
-                <li class="<?php active("extra") ?>"><a href="?q=extra" class="">Letoun</a></li>
-                <li class="<?php active("sestava") ?>"><a href="?q=sestava" class="">Volná&nbsp;sestava</a></li>
-                <li class="<?php active("vysledky") ?>"><a href="?q=vysledky" class="">Výsledky</a></li>
-                <li class="<?php active("foto") ?>"><a href="?q=foto" class="">Fotogalerie</a></li>
-                <li class="<?php active("video") ?>"><a href="?q=video" class="">Video</a></li>
-                <li class="<?php active("partneri") ?>"><a href="?q=partneri" class="">Partneři</a></li>
-                <li class="<?php active("kontakty") ?>"><a href="?q=kontakty" class="">Kontakty</a></li>
+                <li class="<?php active("news"); ?>"><a href="<?php href_page('news'); ?>" class="">Novinky</a> </li>
+                <li class="<?php active("profile"); ?>"><a href="<?php href_page('profile'); ?>" class="">Profil</a></li>
+                <li class="<?php active("extra"); ?>"><a href="<?php href_page('extra'); ?>" class="">Letoun</a></li>
+                <li class="<?php active("sestava"); ?>"><a href="<?php href_page('sestava'); ?>" class="">Volná&nbsp;sestava</a></li>
+                <li class="<?php active("vysledky"); ?>"><a href="<?php href_page('vysledky'); ?>" class="">Výsledky</a></li>
+                <li class="<?php active("foto"); ?>"><a href="<?php href_page('foto'); ?>" class="">Fotogalerie</a></li>
+                <li class="<?php active("video"); ?>"><a href="<?php href_page('video'); ?>" class="">Video</a></li>
+                <li class="<?php active("partneri"); ?>"><a href="<?php href_page('partneri'); ?>" class="">Partneři</a></li>
+                <li class="<?php active("kontakty"); ?>"><a href="<?php href_page('kontakty'); ?>" class="">Kontakty</a></li>
             </ul>
         </div>
 	<div> </div>
     </div>
     <div class="row">
         <div class="col-md-9">
-                <!-- include page "<?php echo $page; ?>" -->
-                    <?php include $page.'.page'; ?>
+                <!-- include page "<?php echo $page; ?>" lang "<?php echo $lang; ?>" -->
+                    <?php
+                        if (file_exists($page.'.'.$lang.'.page')) {
+                            include $page.'.'.$lang.'.page';      
+                        } elseif (file_exists($page.'.page')) {
+                            include $page.'.page';                            
+                        } else {
+                            echo 'missing page "'.$page.'" and lang "'.$lang.'"';
+                        }
+
+                    ?>
                 <!-- end of include --> 
         </div>
         <div class="col-md-3">
