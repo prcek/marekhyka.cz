@@ -119,6 +119,12 @@
         return ($l == $lang);
     }
 
+    function to_lang() {
+        global $lang;
+        global $langs;
+        $lang_index = array_search($lang,$langs);
+        echo func_get_arg($lang_index);
+    }
 
     function href_page($p) {
         global $lang;
@@ -172,15 +178,15 @@
     <div class="row">
         <div class="navbar navbar-inverse">
             <ul class="nav navbar-nav nav-justified">
-                <li class="<?php active("news"); ?>"><a href="<?php href_page('news'); ?>" class="">Novinky</a> </li>
-                <li class="<?php active("profile"); ?>"><a href="<?php href_page('profile'); ?>" class="">Profil</a></li>
-                <li class="<?php active("extra"); ?>"><a href="<?php href_page('extra'); ?>" class="">Letoun</a></li>
-                <li class="<?php active("sestava"); ?>"><a href="<?php href_page('sestava'); ?>" class="">Volná&nbsp;sestava</a></li>
-                <li class="<?php active("vysledky"); ?>"><a href="<?php href_page('vysledky'); ?>" class="">Výsledky</a></li>
-                <li class="<?php active("foto"); ?>"><a href="<?php href_page('foto'); ?>" class="">Fotogalerie</a></li>
-                <li class="<?php active("video"); ?>"><a href="<?php href_page('video'); ?>" class="">Video</a></li>
-                <li class="<?php active("partneri"); ?>"><a href="<?php href_page('partneri'); ?>" class="">Partneři</a></li>
-                <li class="<?php active("kontakty"); ?>"><a href="<?php href_page('kontakty'); ?>" class="">Kontakty</a></li>
+                <li class="<?php active("news"); ?>"><a href="<?php href_page('news'); ?>" class=""><?php to_lang("Novinky","News"); ?></a> </li>
+                <li class="<?php active("profile"); ?>"><a href="<?php href_page('profile'); ?>" class=""><?php to_lang("Profil","Profile"); ?></a></li>
+                <li class="<?php active("extra"); ?>"><a href="<?php href_page('extra'); ?>" class=""><?php to_lang("Letoun","Aircraft"); ?></a></li>
+                <li class="<?php active("sestava"); ?>"><a href="<?php href_page('sestava'); ?>" class=""><?php to_lang("Volná&nbsp;sestava","Freestyle"); ?></a></li>
+                <li class="<?php active("vysledky"); ?>"><a href="<?php href_page('vysledky'); ?>" class=""><?php to_lang("Výsledky","Results"); ?></a></li>
+                <li class="<?php active("foto"); ?>"><a href="<?php href_page('foto'); ?>" class=""><?php to_lang("Fotogalerie","Photo"); ?></a></li>
+                <li class="<?php active("video"); ?>"><a href="<?php href_page('video'); ?>" class=""><?php to_lang("Video","Video"); ?></a></li>
+                <li class="<?php active("partneri"); ?>"><a href="<?php href_page('partneri'); ?>" class=""><?php to_lang("Partneři","Partners");?></a></li>
+                <li class="<?php active("kontakty"); ?>"><a href="<?php href_page('kontakty'); ?>" class=""><?php to_lang("Kontakty","Contacts");?></a></li>
             </ul>
         </div>
 	<div> </div>
@@ -202,7 +208,7 @@
         </div>
         <div class="col-md-3">
             <div class="panel panel-default">
-                <div class="panel-heading">Nejbližší akce</div>
+                <div class="panel-heading"><?php to_lang("Nejbližší akce","Upcoming events")?></div>
                 <div class="panel-body">
                     <?php include 'akce.page'; ?>
                 </div>
@@ -218,7 +224,7 @@
     <br>
     <div class="row">
 	    <div class="panel">
-            <div class="panel-heading text-center">Partneři a sponzoři</div>
+            <div class="panel-heading text-center"><?php to_lang("Partneři a sponzoři","Partners and sponsors"); ?></div>
             <div class="panel-body text-center">
                 <a href="http://www.bittner-audio.com">
                     <img src="imgs/ba-logo.png"  class="">
