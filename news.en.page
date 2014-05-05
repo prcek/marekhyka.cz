@@ -1,0 +1,11 @@
+<div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">Training in Trencin</div> 
+    <div class="panel-body" contenteditable="false">
+        <!--
+        <img src="imgs/extra_real_4.jpg" style="width: 210px; margin-right:20px;" class="pull-left img-responsive img-rounded"> 
+        -->
+        <p>Who wants to look at our training and preparation, you will find us every Mondays and Tuesdays in Trencin.</p>
+        <div class="clearfix"><?php include "gal/gal_trencin_1/gallery.links"; ?></div>
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
