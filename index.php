@@ -232,6 +232,10 @@
                 <a href="http://www.sport-invest.cz/seznam-sportovcu/ostatni/hyka-marek">
                     <img src="imgs/sport_invest_logo2.png" class="">
                 </a>
+                <a href="http://www.woodcomp.cz">
+                    <img src="imgs/logo_woodcomp.png" class="">
+                </a>
+
             <!--
                 <img src="//placehold.it/220x100" class=""> 
                 <img src="imgs/boxer_logo_sm.png"  class="" alt="">
