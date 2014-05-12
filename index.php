@@ -29,6 +29,21 @@
         color: white;
     }
 
+    .panel-default {
+        border: none;
+    }
+
+    .panel-default > .panel-heading {
+       background-color: white;
+       background-image: url('imgs/bg_plane5.png');
+       background-repeat: no-repeat;
+       background-position: right center;
+       padding-left: 10px;
+       color: black;
+       xborder-left: 2px solid #17438a;
+       border-bottom: 2px solid #17438a;
+       border-radius: 3px;
+    }
  
     .panel-heading {
 	   padding: 5px 10px;
