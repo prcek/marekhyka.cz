@@ -40,7 +40,6 @@
        background-position: right center;
        padding-left: 10px;
        color: black;
-       xborder-left: 2px solid #17438a;
        border-bottom: 2px solid #17438a;
        border-radius: 3px;
     }
