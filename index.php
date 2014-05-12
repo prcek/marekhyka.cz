@@ -56,7 +56,16 @@
         border: 2px solid #17438a;
         border-radius: 2px;
     }
-
+    img.flag {
+        border-bottom: 1px solid #eeeeff;
+        border-radius: 2px;
+    }
+ 
+    img.active_flag {
+        border-bottom: 1px solid #17438a;
+        border-radius: 2px;
+    }
+  
   </style>
 
   
@@ -166,14 +175,21 @@
 	           <img src="imgs/hyka_logo_tr.png" class="img-responsive" alt="Responsive image">
             </a>
         </div>
+
         <div class="pull-right">
-            <?php if (is_lang('cs')) { ?>
-                <a href="<?php href_lang('en'); ?>">EN</a>
-            <?php } else { ?>
-                <a href="<?php href_lang('cs'); ?>">CS</a>
-            <?php } ?>
+
+                    <?php if (is_lang('cs')) { ?>
+                        <a href="<?php href_lang('cs'); ?>"><img class="active_flag" src="imgs/flag_cz.png"></a>
+                        <a href="<?php href_lang('en'); ?>"><img class="flag" src="imgs/flag_gb.png"></a>
+                    <?php } else { ?>
+                        <a href="<?php href_lang('cs'); ?>"><img class="flag" src="imgs/flag_cz.png"></a>
+                        <a href="<?php href_lang('en'); ?>"><img class="active_flag" src="imgs/flag_gb.png"></a>
+                    <?php } ?>
+
         </div>
+      
     </div>
+
 
     <div class="row">
         <div class="navbar navbar-inverse">
