@@ -1,0 +1,64 @@
+<div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">EXTRA 330 SC</div> 
+    <div class="panel-body" contenteditable="false">
+    	<p> The EXTRA 330 SC is a single seat, low-wing aerobatic monoplane with 
+            conventional (taildragger) landing gear, offering incredible aerobatic 
+            performance for the unlimited competitor or free-style pilot
+        </p>
+
+
+        <?php include "gal/extra_2/gallery_c.links"; ?>
+
+
+
+    	<h3>Technical data</h3>
+
+    	<div class="row">
+    		<div class="col-md-6">
+				<table class="table table-condensed">
+					<thead>
+						<th colspan=2>Dimensions</th>
+					</thead>
+					<tbody>
+		  				<tr><td>Wingspan</td><td>24,6 ft / 7,5 m</td></tr>
+		  				<tr><td>Length</td><td>22,1 ft / 6,7 m</td></tr>
+		  				<tr><td>Height</td><td>8,4 ft / 2,6 m</td></tr>
+		  				<tr><td>Wing area</td><td>105,6 ft²/ 9,8 m²</td></tr>
+		  			</tbody>
+				</table>
+			</div>
+    		<div class="col-md-6">
+				<table class="table table-condensed">
+					<thead>
+						<th colspan=2>Speed</th>
+					</thead>
+					<tbody>
+		  				<tr><td>Never exceed speed (Vne)</td><td>220 kts</td></tr>
+		  				<tr><td>Maneuvering speed (Va) (acro)</td><td>158 kts</td></tr>
+		  				<tr><td>Stall speed at 1.720 lbs / 780 kg (Vs)</td><td>61 kts</td></tr>
+		  				<tr><td>Stall speed at 1.918 lbs / 870 kg (Vs)</td><td>64 kts</td></tr>
+		  			</tbody>
+				</table>
+			</div>
+		</div>
+
+        <div class="row">   
+            <div class="col-md-12">
+                <img src="imgs/extra_paint_side.png" class="img-responsive img-rounded">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <img src="imgs/extra_paint_top.png" class="img-responsive img-rounded"> 
+            </div>
+            <div class="col-md-6">
+                <img src="imgs/extra_paint_bottom.png" class="img-responsive img-rounded"> 
+            </div>
+        </div>
+
+
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
+              

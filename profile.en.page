@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">Marek Hyka - aerobatic pilot</div>
+    <div class="panel-body" contenteditable="false">
+
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="imgs/marek_foto_1_sm.jpg" class="img-responsive img-rounded">
+            </div>
+            
+            <div class="col-md-8">
+        			<p>I'm aerobatic pilot in the category UNLIMITED, a member of the Czech national team in aerobatics and professional airshow pilot. </p>
+        			<p>Birth: Feb 23, 1972 in Melnik.</p>
+        			<p>Total hours flown: 700, of which 500 aerobatic (4/2014). </p>
+        			<p>My motto: <em>Whatever I do, I do at full throttle. Either get on the top or not.</em></p>
+        	</div>
+        </div>
+
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
+              
