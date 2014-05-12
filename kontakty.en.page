@@ -1,0 +1,26 @@
+<div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">Contacts</div> 
+    <div class="panel-body" contenteditable="false">
+
+        <p>If you want to fly with me in acrobatic special or want to see a professional acrobatic show, 
+            do not hesitate to contact me. 
+        </p>
+
+        <p>E-mail - <a href="mailto:info@marekhyka.cz">info@marekhyka.cz</a> </p>
+       
+
+        <h3>Aerodrome Sazená – Kralupy nad Vltavou</h3>
+     <!--   
+        <iframe src="http://maps.google.cz/maps?hl=cs&amp;q=leti%C5%A1t%C4%9B+sazen%C3%A1&amp;ie=UTF8&amp;hq=leti%C5%A1t%C4%9B+sazen%C3%A1&amp;t=h&amp;brcurrent=5,0,0&amp;ll=50.324303,14.260552&amp;spn=0.017955,0.017806&amp;output=embed" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="425" height="350"></iframe>
+    -->
+
+
+
+<iframe src="http://api4.mapy.cz/frame?url=http%3A%2F%2Fmapy.cz%2Fs%2F9Jsx&amp;z=12&amp;x=14.26185857559797&amp;y=50.323819913716974&amp;o=0&amp;layer=2&amp;move=1&amp;prev=1&amp;w=810&amp;h=600" width="100%" height="600" style="border:none" frameBorder="0"></iframe>
+
+
+
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
+              

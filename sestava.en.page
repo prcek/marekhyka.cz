@@ -1,0 +1,22 @@
+<div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">Freestyle</div> 
+    <div class="panel-body" contenteditable="false">
+        <img src="imgs/sestava_top.jpg" class="img-responsive img-rounded">
+
+
+      	<h3>My Freestyle</h3>
+
+     	<div class="clearfix"><?php include "gal/sestava_1/gallery.links"; ?></div>
+  
+
+		<h3>And how it looks on during the flight?</h3>
+
+		<div class="text-center">
+	    	<iframe src="http://www.youtube.com/embed/d0bWXu9E3XU?wmode=transparent" height="315" width="560" frameborder="0"></iframe>
+		</div>
+
+
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
+              
