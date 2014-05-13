@@ -4,21 +4,8 @@
  
     <p class="lead"> test </p>
 
-    <h3> g 1 </h3>
-    <div class="row">
-    <div class="col-md-12">
-        <?php include "gal/afc_2013/gallery.links"; ?>
-    </div>
-    </div>
+    <?php phpinfo(); ?>
 
-
-    <h3> g 1 </h3>
-    <div class="row">
-    <div class="col-md-12">
-        <?php include "gal/afc_2013/gallery_c.links"; ?>
-    </div>
-    </div>
-        <?php include "gal/afc_2012/gallery_c.links"; ?>
 
     </div> <!-- end of panel-body -->
 </div> <!-- end of panel -->
