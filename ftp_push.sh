@@ -1,6 +1,7 @@
 #!/bin/bash
-date >> logs/ftp_push.log
+date >> .logs/ftp_push.log
 if [ ! -f .lftp_sync ] ; then
 	exit 0
 fi
-lftp -f .lftp_sync >> logs/ftp_push.log
+echo 'starting lftp sync' >> .logs/ftp_push.log
+lftp -f .lftp_sync >> .logs/ftp_push.log

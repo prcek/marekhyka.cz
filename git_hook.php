@@ -10,7 +10,7 @@ catch(Exception $e)
   exit(0);
 }
 
-file_put_contents('logs/git_hook.log', print_r($payload, TRUE), FILE_APPEND);
+file_put_contents('.logs/git_hook.log', print_r($payload, TRUE), FILE_APPEND);
 
 if (($payload->ref == 'refs/heads/master') or ($payload->ref == 'refs/heads/test'))
 {

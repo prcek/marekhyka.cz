@@ -1,2 +1,2 @@
 #!/bin/bash
-git pull >> logs/git_pull.log
+git pull >> .logs/git_pull.log
