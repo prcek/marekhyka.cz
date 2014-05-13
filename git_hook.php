@@ -16,6 +16,7 @@ if (($payload->ref == 'refs/heads/master') or ($payload->ref == 'refs/heads/test
 {
   print "update triggered";
   exec('./git_pull.sh');
+  exec('./ftp_push.sh');
 } else {
 
 }
