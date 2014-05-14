@@ -8,7 +8,7 @@
 
 
     <!-- Bootstrap -->
-    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,900italic&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="bootstrap.test.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/blueimp-gallery.min.css">
