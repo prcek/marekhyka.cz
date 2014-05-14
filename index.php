@@ -97,6 +97,15 @@
 <!--
 <?php 
 
+    if (preg_match('/^.*\.marekhyka.cz$/', $_SERVER['SERVER_NAME'])) {
+        echo "production site;\n";
+        $debug = False;
+    } else {
+        echo "testing site;\n";
+        $debug = True;
+    }
+
+
 
     $langs = array("cs","en");
 	$pages = array("news", "profile", "extra", "sestava", "vysledky", "foto", "video", "partneri", "kontakty", "tiskova_1", "test");	
@@ -121,8 +130,8 @@
 		$page = $pages[0];
 	}
 
-    echo "active lang is \"".$lang."\"";
-    echo "active page is \"".$page."\"";
+    echo "active lang is \"".$lang."\";\n";
+    echo "active page is \"".$page."\";\n";
 	function active($p) {
 		global $page;
 		if ($p == $page) {
@@ -169,7 +178,15 @@
 
 ?>
 -->
- 
+
+    <?php 
+        if (!$debug) {
+            include_once("ga_track.php");       
+        }
+    ?>
+
+
+
 
 
 <div class="container">
