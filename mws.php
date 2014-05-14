@@ -56,13 +56,13 @@
 
     function href_page($p) {
         global $lang;
-        echo "?q=".$p."&l=".$lang;
+        echo "?q=".$p."&amp;l=".$lang;
     
     }
 
     function href_lang($l) {
         global $page;
-        echo "?q=".$page."&l=".$l;
+        echo "?q=".$page."&amp;l=".$l;
     }
 
     function btn_link($href,$text) {
