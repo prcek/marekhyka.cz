@@ -94,7 +94,7 @@
 
 <!--  MWS include; 
 <?php 
-        $site = '.*\.marekhyka.cz';
+        $site = '.*marekhyka.cz';
         $langs = array("cs","en");
         $pages = array("news", "profile", "extra", "sestava", "vysledky", "foto", "video", "partneri", "kontakty", "tiskova_1", "test");    
 
