@@ -127,7 +127,7 @@ end of MWS include -->
 <div class="container visible-lg visible-md" id="bgtest">
 	<div class="row">
             <div class="col-md-offset-6 col-md-5">
-                <img src="imgs/extra_2_sm_tr.png" class="img-responsive" alt="Responsive image">
+                <img src="imgs/extra_2_sm_tr.png" class="img-responsive" alt="extra">
             </div>
 	</div>
 </div>
@@ -136,18 +136,18 @@ end of MWS include -->
     <div class="row">
         <div class="col-md-6">
             <a href=".">
-	           <img src="imgs/hyka_logo_tr.png" class="img-responsive" alt="Responsive image">
+	           <img src="imgs/hyka_logo_tr.png" class="img-responsive" alt="hyka logo">
             </a>
         </div>
 
         <div class="pull-right">
 
                     <?php if (is_lang('cs')) { ?>
-                        <a href="<?php href_lang('cs'); ?>"><img class="active_flag" src="imgs/flag_cz.png"></a>
-                        <a href="<?php href_lang('en'); ?>"><img class="flag" src="imgs/flag_gb.png"></a>
+                        <a href="<?php href_lang('cs'); ?>"><img class="active_flag" src="imgs/flag_cz.png" alt="lang flag cz"></a>
+                        <a href="<?php href_lang('en'); ?>"><img class="flag" src="imgs/flag_gb.png" alt="lang flag en"></a>
                     <?php } else { ?>
-                        <a href="<?php href_lang('cs'); ?>"><img class="flag" src="imgs/flag_cz.png"></a>
-                        <a href="<?php href_lang('en'); ?>"><img class="active_flag" src="imgs/flag_gb.png"></a>
+                        <a href="<?php href_lang('cs'); ?>"><img class="flag" src="imgs/flag_cz.png" alt="lang flag cz"></a>
+                        <a href="<?php href_lang('en'); ?>"><img class="active_flag" src="imgs/flag_gb.png" alt="lang flag en"></a>
                     <?php } ?>
 
         </div>
@@ -200,13 +200,13 @@ end of MWS include -->
             <div class="panel-heading text-center"><?php to_lang("Partneři a sponzoři","Partners and sponsors"); ?></div>
             <div class="panel-body text-center">
                 <a href="http://www.bittner-audio.com">
-                    <img src="imgs/ba-logo.png"  class="">
+                    <img src="imgs/ba-logo.png"  class="" alt="bittner audio logo">
                 </a>
                 <a href="http://www.sport-invest.cz/seznam-sportovcu/ostatni/hyka-marek">
-                    <img src="imgs/sport_invest_logo2.png" class="">
+                    <img src="imgs/sport_invest_logo2.png" class="" alt="sport invest logo">
                 </a>
                 <a href="http://www.woodcomp.cz">
-                    <img src="imgs/logo_woodcomp.png" class="">
+                    <img src="imgs/logo_woodcomp.png" class="" alt="woodcomp logo">
                 </a>
 
             <!--
