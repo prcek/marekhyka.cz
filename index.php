@@ -91,99 +91,32 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
 
-<!--
+<!--  MWS include; 
 <?php 
+        $site = '.*\.marekhyka.cz';
+        $langs = array("cs","en");
+        $pages = array("news", "profile", "extra", "sestava", "vysledky", "foto", "video", "partneri", "kontakty", "tiskova_1", "test");    
 
-    if (preg_match('/^.*\.marekhyka.cz$/', $_SERVER['SERVER_NAME'])) {
-        echo "production site;\n";
-        $debug = False;
-    } else {
-        echo "testing site;\n";
-        $debug = True;
-    }
-
-
-
-    $langs = array("cs","en");
-	$pages = array("news", "profile", "extra", "sestava", "vysledky", "foto", "video", "partneri", "kontakty", "tiskova_1", "test");	
-	
-
-
-    if (isset($_GET["l"])) {
-        $lang = $_GET["l"];
-        if (!in_array($lang,$langs))  {
-            $lang = $langs[0];
-        }
-    } else {
-        $lang = $langs[0];
-    }
-
-    if (isset($_GET["q"])) {
-		$page = $_GET["q"];
-		if (!in_array($page,$pages))  {
-			$page = $pages[0];
-		}
-	} else {
-		$page = $pages[0];
-	}
-
-    echo "active lang is \"".$lang."\";\n";
-    echo "active page is \"".$page."\";\n";
-	function active($p) {
-		global $page;
-		if ($p == $page) {
-			echo "active";
-		}
-	}
-
-    function active_lang($l) {
-        global $lang;
-        if ($l == $lang) {
-            echo "active";
-        }
-    }
-
-    function is_lang($l) {
-        global $lang;
-        return ($l == $lang);
-    }
-
-    function to_lang() {
-        global $lang;
-        global $langs;
-        $lang_index = array_search($lang,$langs);
-        echo func_get_arg($lang_index);
-    }
-
-    function href_page($p) {
-        global $lang;
-        echo "?q=".$p."&l=".$lang;
-    
-    }
-
-    function href_lang($l) {
-        global $page;
-        echo "?q=".$page."&l=".$l;
-    }
-
-    function btn_link($href,$text) {
-        echo "<a href=\"".$href."\" class=\"btn btn-primary btn-xs\">".$text." <i class=\"glyphicon glyphicon-arrow-right\"></i></a>";
-    }
-    function btn_blink($href,$text) {
-        echo "<a href=\"".$href."\" class=\"btn btn-default btn-xs\"> <i class=\"glyphicon glyphicon-arrow-left\"></i> ".$text."</a>";
-    }
+        include_once('mws.php');
 
 ?>
--->
+end of MWS include -->
 
     <?php 
         if (!$debug) {
             include_once("ga_track.php");       
         }
     ?>
+
+
+
+
+
+  </head>
+  <body>
+
+
 
 
 
@@ -242,14 +175,7 @@
         <div class="col-md-9">
                 <!-- include page "<?php echo $page; ?>" lang "<?php echo $lang; ?>" -->
                     <?php
-                        if (file_exists($page.'.'.$lang.'.page')) {
-                            include $page.'.'.$lang.'.page';      
-                        } elseif (file_exists($page.'.page')) {
-                            include $page.'.page';                            
-                        } else {
-                            echo 'missing page "'.$page.'" and lang "'.$lang.'"';
-                        }
-
+                        include_page();
                     ?>
                 <!-- end of include --> 
         </div>
