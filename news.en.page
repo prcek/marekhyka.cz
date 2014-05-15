@@ -7,6 +7,7 @@
         <p>Who wants to look at our training and preparation, you will find us every Mondays and Tuesdays in Trencin.</p>
         <div class="clearfix"><?php include "gal/gal_trencin_1/gallery.links"; ?></div>
     </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
 
 <div class="panel panel-default">
     <div class="panel-heading" contenteditable="false">The new aircraft EXTRA 330 SC</div> 
@@ -21,7 +22,5 @@
             <?php btn_link("?q=tiskova_1&amp;l=en","press release"); ?>
         </div>
     </div> <!-- end of panel-body -->
-</div> <!-- end of panel -->
-
 </div> <!-- end of panel -->
 
