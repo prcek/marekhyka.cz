@@ -1,0 +1,27 @@
+
+
+<div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">Press Release: The new aircraft EXTRA 330 SC</div> 
+    <div class="panel-body" contenteditable="false">
+        
+        <img src="imgs/extra_real_1.jpg" style="width: 210px; margin-right:20px;" class="pull-left img-responsive img-rounded"> 
+        
+
+
+<p>Marek Hyka signed a year contract with Bittner-Audio co. and will spend the 2014 season flying a racer Extra 330 SC of Slovak tail number OM-EXT.</p>
+
+<p>Aerobatic flying is very attractive for the spectators, in which besides the pilots` precision the aircraft plays a significant role, too. Aerobatic figures need not only perfectly focused pilot but also a quality and reliable airplane that will easily handle manoeuvres of 10G, will have an engine with enough power and a fuselage made from solid and as far as the lightest material.</p>
+
+<p>Just like in any other motor sport so it is in aerobatics that pilots change their airplanes in order to achieve better performance and push their own limits. And Marek Hyka, one of the best Czech aerobatic pilots, decided to take this step this year.</p>
+
+<p>“In the summer of 2013 I had serious problems with my racer Xtremeair XP30, which I still haven`t been able to solve. Therefore I happily accepted the offer – to fly for Bittner-Audio Company from Slovakia with which I signed a year contract and thanks to which I will be able to fly in the upcoming season on a top-class racer Extra 330SC”, says Marek Hyka. According to his own words he should spend the whole 2014 season with this aircraft and participate in competitions like Czech Republic Championship, Aerobatic Freestyle Challenge and also European Championship in Hungary in August. </p>
+
+<p>Marek Hyka (1972) devotes himself to aerobatic flying for a second decade. His best achievement is earning four medals in three seasons and that for each program in category Advanced; the best was a gold medal from World Championship in 2010 for Unknown Program and overall 5th place out of 82 competitors! In category Unlimited he was always in Top 10 and he would like to follow up these achievements with his new racer. Besides flying he engages in training and in organizing aerobatic competitions Aerobatic Freestyle Challenge which first two rounds took place in Prague, Czech Republic.</p>
+
+        <div class="clearfix"><?php include "gal/extra_1/gallery.links"; ?></div><br>
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
+ <div class="pull-right"><?php btn_blink("?q=news&amp;l=en","back to News"); ?></div>
+              
+

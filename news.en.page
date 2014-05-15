@@ -7,5 +7,21 @@
         <p>Who wants to look at our training and preparation, you will find us every Mondays and Tuesdays in Trencin.</p>
         <div class="clearfix"><?php include "gal/gal_trencin_1/gallery.links"; ?></div>
     </div> <!-- end of panel-body -->
+
+<div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">The new aircraft EXTRA 330 SC</div> 
+    <div class="panel-body" contenteditable="false">
+        <!--
+        <img src="imgs/extra_real_1.jpg" style="width: 210px; margin-right:20px;" class="pull-left img-responsive img-rounded"> 
+        -->
+        <p>In the summer of 2013 I had serious problems with my racer Xtremeair XP30, which I still haven`t been able to solve. Therefore I happily accepted the offer – to fly for Bittner-Audio Company from Slovakia with which I signed a year contract and thanks to which I will be able to fly in the upcoming season on a top-class racer Extra 330SC.
+        </p>
+        <div class="clearfix"><?php include "gal/extra_1/gallery.links"; ?></div><br>
+        <div class="pull-right"> 
+            <?php btn_link("?q=tiskova_1&amp;l=en","press release"); ?>
+        </div>
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
 </div> <!-- end of panel -->
 
