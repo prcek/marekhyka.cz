@@ -1,10 +1,18 @@
 <div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">CIAF 2014 - letecká show v Hradci Králové</div> 
+    <div class="panel-body" contenteditable="false">
+        <p>Ve dnech 6. a 7.9. 2014 se uskuteční 21. ročník CIAFu v Hradci Králové. Bude se určitě na co koukat! Moje vystoupení s Extrou si můžete užít v sobotu i v neděli. Těším se na vás!</p>
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
+
+<div class="panel panel-default">
     <div class="panel-heading" contenteditable="false">Trénink v Trenčíně</div> 
     <div class="panel-body" contenteditable="false">
         <!--
         <img src="imgs/extra_real_4.jpg" style="width: 210px; margin-right:20px;" class="pull-left img-responsive img-rounded"> 
         -->
-        <p>Kdo se chce podívat na náš trénink a přípravu, najdete nás každé pondělky a úterky v Trenčíně.</p>
+        <p>Chcete se podívat na náš trénink a přípravu? Najdete nás každé pondělí a úterý v Trenčíně.</p>
         <div class="clearfix"><?php include "gal/gal_trencin_1/gallery.links"; ?></div>
     </div> <!-- end of panel-body -->
 </div> <!-- end of panel -->
