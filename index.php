@@ -208,6 +208,9 @@ end of MWS include -->
                 <a href="http://www.woodcomp.cz">
                     <img src="imgs/logo_woodcomp.png" class="" alt="woodcomp logo">
                 </a>
+                <a href="http://www.gestivbohemia.com">
+                    <img src="imgs/logo_gestiv.png" class="" alt="gestiv logo">
+                </a>
 
             <!--
                 <img src="//placehold.it/220x100" class=""> 
