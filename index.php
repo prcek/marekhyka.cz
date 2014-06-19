@@ -212,6 +212,9 @@ end of MWS include -->
                     <img src="imgs/logo_gestiv.png" class="" alt="gestiv logo">
                 </a>
 
+                <a href="http://itsounds.com">
+                    <img src="imgs/logo_is.png" class="" alt="itsounds.com logo">
+                </a>
             <!--
                 <img src="//placehold.it/220x100" class=""> 
                 <img src="imgs/boxer_logo_sm.png"  class="" alt="">
