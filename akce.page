@@ -4,7 +4,6 @@
 <?php 
 
 	$event_list = array (
-		array( "18.6. - 21.6. 2014", "MČR v akrobacii motorových letounů v Chotěboři"),
 		array( "23.8. - 30.8. 2014", "FAI EAC 2014 ME v motorové akrobacii Unlimited, Matkopuszta, HUN"),
 		array( "6.9. - 7.9. 2014", "CIAF 2014, Hradec Králové")
 
