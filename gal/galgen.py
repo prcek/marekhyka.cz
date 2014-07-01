@@ -76,12 +76,11 @@ def max_box(im,maxdim):
 
 	return im.resize((new_dx,new_dy), Image.ANTIALIAS)
 
-src_dir = "./src/sestava_1"
-target_dir = "sestava_1"
+src_dir = "./src/chotebor_2014"
+target_dir = "chotebor_2014"
 html_prefix = "gal"
-#thumbnail_box_size = 75
 
-thumbnail_size = (188,280)
+thumbnail_size = (75,75)
 max_image_size = (800,600)
 
 
