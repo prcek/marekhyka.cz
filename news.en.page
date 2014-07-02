@@ -1,4 +1,11 @@
 <div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">National Championship - Chotěboř</div> 
+    <div class="panel-body" contenteditable="false">
+        <p>Adding some photos from Championship in motor aerobatics in Chotěboř (CZ). In the Unlimited category, I placed 3rd. At the first flight showed my fatigue, but I'm satisfied with the result of the event.</p>
+        <div class="clearfix"><?php include "gal/chotebor_2014/gallery.links"; ?></div>
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+<div class="panel panel-default">
     <div class="panel-heading" contenteditable="false">Czech International Air Fest</div> 
     <div class="panel-body" contenteditable="false">
         <p>From September 6 to 7 2014 the 21st CIAF will take place in Hradec Kralove (CZE). It will be gorgeous air show! You will be able to enjoy my performance on Extra both days. See you there!</p>

@@ -1,4 +1,12 @@
 <div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">Mistrovství republiky v motorové letecké akrobacii - Chotěboř</div> 
+    <div class="panel-body" contenteditable="false">
+        <p>Přidávám pár fotek z Mistrovství republiky v motorové letecké akrobacii v Chotěboři. V kategorii Unlimited jsem obsadil 3. místo. Hned při prvním letu se projevila moje únava, ale s výsledkem akce jsem spokojený.</p>
+        <div class="clearfix"><?php include "gal/chotebor_2014/gallery.links"; ?></div>
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
+<div class="panel panel-default">
     <div class="panel-heading" contenteditable="false">CIAF 2014 - letecká show v Hradci Králové</div> 
     <div class="panel-body" contenteditable="false">
         <p>Ve dnech 6. a 7.9. 2014 se uskuteční 21. ročník CIAFu v Hradci Králové. Bude se určitě na co koukat! Moje vystoupení s Extrou si můžete užít v sobotu i v neděli. Těším se na vás!</p>
