@@ -4,6 +4,7 @@
 <?php 
 
 	$event_list = array (
+		array( "7.8. - 16.8. 2014", "11th FAI World Advanced Aerobatic Championships 2014, Dubnica nad Vahom, SK"),
 		array( "23.8. - 30.8. 2014", "FAI EAC 2014 ME v motorové akrobacii Unlimited, Matkopuszta, HUN"),
 		array( "6.9. - 7.9. 2014", "CIAF 2014, Hradec Králové")
 
