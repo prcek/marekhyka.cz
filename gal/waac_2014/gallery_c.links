@@ -1,0 +1,24 @@
+<div id="blueimp-gallery-carousel-waac_2014" class="blueimp-gallery blueimp-gallery-controls  blueimp-gallery-carousel">
+	<div class="slides"></div>
+	<h3 class="title"></h3>
+	<a class="prev">‹</a>
+	<a class="next">›</a>
+	<a class="play-pause"></a>
+	<ol class="indicator"></ol>
+</div>
+<div id="links-gallery-carousel-waac_2014">
+	<a href="gal/waac_2014/imgs/IMG_1005.jpg" data-gallery>
+	</a>
+	<a href="gal/waac_2014/imgs/IMG_1014.jpg" data-gallery>
+	</a>
+	<a href="gal/waac_2014/imgs/IMG_1016.jpg" data-gallery>
+	</a>
+	<a href="gal/waac_2014/imgs/IMG_1043.jpg" data-gallery>
+	</a>
+	<a href="gal/waac_2014/imgs/IMG_1049.jpg" data-gallery>
+	</a>
+	<a href="gal/waac_2014/imgs/IMG_1052.jpg" data-gallery>
+	</a>
+	<a href="gal/waac_2014/imgs/IMG_1059.jpg" data-gallery>
+	</a>
+</div>

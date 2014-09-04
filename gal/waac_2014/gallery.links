@@ -1,0 +1,34 @@
+<div class="gal" id="links-gallery-waac_2014">
+	<a href="gal/waac_2014/imgs/IMG_1005.jpg" data-gallery>
+		<img src="gal/waac_2014/thumbs/IMG_1005.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/waac_2014/imgs/IMG_1014.jpg" data-gallery>
+		<img src="gal/waac_2014/thumbs/IMG_1014.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/waac_2014/imgs/IMG_1016.jpg" data-gallery>
+		<img src="gal/waac_2014/thumbs/IMG_1016.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/waac_2014/imgs/IMG_1043.jpg" data-gallery>
+		<img src="gal/waac_2014/thumbs/IMG_1043.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/waac_2014/imgs/IMG_1049.jpg" data-gallery>
+		<img src="gal/waac_2014/thumbs/IMG_1049.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/waac_2014/imgs/IMG_1052.jpg" data-gallery>
+		<img src="gal/waac_2014/thumbs/IMG_1052.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/waac_2014/imgs/IMG_1059.jpg" data-gallery>
+		<img src="gal/waac_2014/thumbs/IMG_1059.jpg" class="img-responsive pull-left">
+	</a>
+</div>
+
+    <script>
+    document.getElementById('links-gallery-waac_2014').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+    </script>
