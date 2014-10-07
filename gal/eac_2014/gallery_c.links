@@ -1,0 +1,22 @@
+<div id="blueimp-gallery-carousel-eac_2014" class="blueimp-gallery blueimp-gallery-controls  blueimp-gallery-carousel">
+	<div class="slides"></div>
+	<h3 class="title"></h3>
+	<a class="prev">‹</a>
+	<a class="next">›</a>
+	<a class="play-pause"></a>
+	<ol class="indicator"></ol>
+</div>
+<div id="links-gallery-carousel-eac_2014">
+	<a href="gal/eac_2014/imgs/akce.jpg" data-gallery>
+	</a>
+	<a href="gal/eac_2014/imgs/IMG_1119.jpg" data-gallery>
+	</a>
+	<a href="gal/eac_2014/imgs/kokpit 2.jpg" data-gallery>
+	</a>
+	<a href="gal/eac_2014/imgs/na start.jpg" data-gallery>
+	</a>
+	<a href="gal/eac_2014/imgs/po letu,.jpg" data-gallery>
+	</a>
+	<a href="gal/eac_2014/imgs/sponzori 2.jpg" data-gallery>
+	</a>
+</div>

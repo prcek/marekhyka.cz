@@ -76,8 +76,8 @@ def max_box(im,maxdim):
 
 	return im.resize((new_dx,new_dy), Image.ANTIALIAS)
 
-src_dir = "./src/waac_2014"
-target_dir = "waac_2014"
+src_dir = "./src/eac_2014"
+target_dir = "eac_2014"
 html_prefix = "gal"
 
 thumbnail_size = (75,75)

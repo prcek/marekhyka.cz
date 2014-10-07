@@ -1,0 +1,31 @@
+<div class="gal" id="links-gallery-eac_2014">
+	<a href="gal/eac_2014/imgs/akce.jpg" data-gallery>
+		<img src="gal/eac_2014/thumbs/akce.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/eac_2014/imgs/IMG_1119.jpg" data-gallery>
+		<img src="gal/eac_2014/thumbs/IMG_1119.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/eac_2014/imgs/kokpit 2.jpg" data-gallery>
+		<img src="gal/eac_2014/thumbs/kokpit 2.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/eac_2014/imgs/na start.jpg" data-gallery>
+		<img src="gal/eac_2014/thumbs/na start.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/eac_2014/imgs/po letu,.jpg" data-gallery>
+		<img src="gal/eac_2014/thumbs/po letu,.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/eac_2014/imgs/sponzori 2.jpg" data-gallery>
+		<img src="gal/eac_2014/thumbs/sponzori 2.jpg" class="img-responsive pull-left">
+	</a>
+</div>
+
+    <script>
+    document.getElementById('links-gallery-eac_2014').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+    </script>
