@@ -1,0 +1,12 @@
+<div id="blueimp-gallery-carousel-povinna_sestava_2015" class="blueimp-gallery blueimp-gallery-controls  blueimp-gallery-carousel">
+	<div class="slides"></div>
+	<h3 class="title"></h3>
+	<a class="prev">‹</a>
+	<a class="next">›</a>
+	<a class="play-pause"></a>
+	<ol class="indicator"></ol>
+</div>
+<div id="links-gallery-carousel-povinna_sestava_2015">
+	<a href="gal/povinna_sestava_2015/imgs/sestava.jpg" data-gallery>
+	</a>
+</div>

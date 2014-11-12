@@ -1,3 +1,14 @@
+
+<div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">Povinná sestava pro rok 2015</div> 
+    <div class="panel-body" contenteditable="false">
+        <p>V roce 2015 se bude v kategorii unlimited lítat tato povinná sestava.</p>
+	<div class="clearfix"><?php include "gal/povinna_sestava_2015/gallery.links"; ?></div>
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
+
+
 <div class="panel panel-default">
     <div class="panel-heading" contenteditable="false">19th FAI European Aerobatic Championship - Maďarsko</div> 
     <div class="panel-body" contenteditable="false">

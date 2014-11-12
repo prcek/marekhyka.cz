@@ -1,0 +1,16 @@
+<div class="gal" id="links-gallery-povinna_sestava_2015">
+	<a href="gal/povinna_sestava_2015/imgs/sestava.jpg" data-gallery>
+		<img src="gal/povinna_sestava_2015/thumbs/sestava.jpg" class="img-responsive pull-left">
+	</a>
+</div>
+
+    <script>
+    document.getElementById('links-gallery-povinna_sestava_2015').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+    </script>
