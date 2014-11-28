@@ -70,6 +70,15 @@
         border: 2px solid #17438a;
         border-radius: 2px;
     }
+    .link > a > img {
+        border: 2px solid #eeeeff;
+    }
+
+    .link > a > img:hover {
+        border: 2px solid #17438a;
+        border-radius: 2px;
+    }
+
     img.flag {
         border-bottom: 1px solid #eeeeff;
         border-radius: 2px;

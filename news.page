@@ -1,3 +1,16 @@
+<div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">Krásný dárek</div> 
+    <div class="panel-body" contenteditable="false">
+	<p>Co dostane pod stromeček? Zase ponožky nebo voňavku? Brrr. Co zkusit něco originálního a hlavně něco co si skutečně užije a na co bude vzpomínat celý život? Zkuste to letos AKROBATICKY!
+	</p>
+	<div class="link">
+	<a href="http://akrobaticky.cz">
+		<img src="imgs/vanoce.jpg" style="width: 650px; margin-right:20px;" class="pull-left img-responsive img-rounded">
+	</a>
+	</div>
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
 
 <div class="panel panel-default">
     <div class="panel-heading" contenteditable="false">Povinná sestava pro rok 2015</div> 

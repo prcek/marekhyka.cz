@@ -71,7 +71,10 @@
     function btn_blink($href,$text) {
         echo "<a href=\"".$href."\" class=\"btn btn-default btn-xs\"> <i class=\"glyphicon glyphicon-arrow-left\"></i> ".$text."</a>";
     }
-
+    function btn_inline_link($href,$text) {
+        echo "<a href=\"".$href."\" class=\"btn btn-primary btn-xs\">".$text."</a>";
+    }
+ 
 
     function include_page() {
     	global $page;
