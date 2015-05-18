@@ -215,6 +215,8 @@ end of MWS include -->
 	    <div class="panel">
             <div class="panel-heading text-center"><?php to_lang("Partneři a sponzoři","Partners and sponsors"); ?></div>
             <div class="panel-body text-center">
+
+            <!-- 
                 <a href="http://www.bittner-audio.com">
                     <img src="imgs/ba-logo.png"  class="" alt="bittner audio logo">
                 </a>
@@ -231,6 +233,20 @@ end of MWS include -->
                 <a href="http://itsounds.com">
                     <img src="imgs/logo_is.png" class="" alt="itsounds.com logo">
                 </a>
+            -->
+            
+                <a href="http://www.airfaceone.cz/">
+                    <img src="imgs/logo_afo.png" class="" alt="airfaceone logo">
+                </a>
+   
+                <a href="http://www.aeroengine.cz/">
+                    <img src="imgs/logo_aeroengine.png" class="" alt="aeroengine logo">
+                </a>
+
+                <a href="http://www.jihostroj.com/">
+                    <img src="imgs/logo_jihostroj.png" class="" alt="jihostroj logo">
+                </a>
+
             <!--
                 <img src="//placehold.it/220x100" class=""> 
                 <img src="imgs/boxer_logo_sm.png"  class="" alt="">

@@ -5,6 +5,7 @@
 
      		<div class="text-center">
       
+                <!--
         		<a href="http://www.bittner-audio.com">
                     <img src="imgs/ba-logo.png"  class="">
                 </a>
@@ -24,7 +25,19 @@
                 <a href="http://itsounds.com">
                     <img src="imgs/logo_is.png" class="" alt="itsounds.com logo">
                 </a>
-            
+                -->
+
+                <a href="http://www.airfaceone.cz/">
+                    <img src="imgs/logo_afo.png" class="" alt="airfaceone logo">
+                </a>
+   
+                <a href="http://www.aeroengine.cz/">
+                    <img src="imgs/logo_aeroengine.png" class="" alt="aeroengine logo">
+                </a>
+
+                <a href="http://www.jihostroj.com/">
+                    <img src="imgs/logo_jihostroj.png" class="" alt="jihostroj logo">
+                </a>
 
         
         	</div>
