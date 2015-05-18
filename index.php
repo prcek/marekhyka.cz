@@ -105,7 +105,7 @@
 <?php 
         $site = '.*marekhyka.cz';
         $langs = array("cs","en");
-        $pages = array("news", "profile", "extra", "sestava", "vysledky", "foto", "video", "partneri", "kontakty", "tiskova_1", "test");    
+        $pages = array("news", "profile", "sugo", "sestava", "vysledky", "foto", "video", "partneri", "kontakty", "tiskova_1", "test");    
 
         include_once('mws.php');
 
@@ -169,7 +169,7 @@ end of MWS include -->
             <ul class="nav navbar-nav nav-justified">
                 <li class="<?php active("news"); ?>"><a href="<?php href_page('news'); ?>" class=""><?php to_lang("Novinky","News"); ?></a> </li>
                 <li class="<?php active("profile"); ?>"><a href="<?php href_page('profile'); ?>" class=""><?php to_lang("Profil","Profile"); ?></a></li>
-                <li class="<?php active("extra"); ?>"><a href="<?php href_page('extra'); ?>" class=""><?php to_lang("Letoun","Aircraft"); ?></a></li>
+                <li class="<?php active("sugo"); ?>"><a href="<?php href_page('sugo'); ?>" class=""><?php to_lang("Letoun","Aircraft"); ?></a></li>
                 <li class="<?php active("sestava"); ?>"><a href="<?php href_page('sestava'); ?>" class=""><?php to_lang("Volná&nbsp;sestava","Freestyle"); ?></a></li>
                 <li class="<?php active("vysledky"); ?>"><a href="<?php href_page('vysledky'); ?>" class=""><?php to_lang("Výsledky","Results"); ?></a></li>
                 <li class="<?php active("foto"); ?>"><a href="<?php href_page('foto'); ?>" class=""><?php to_lang("Fotogalerie","Photo"); ?></a></li>
