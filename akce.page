@@ -8,6 +8,11 @@
 		//array( "23.8. - 30.8. 2014", "FAI EAC 2014 ME v motorové akrobacii Unlimited, Matkopuszta, HUN"),
 		//array( "6.9. - 7.9. 2014", "CIAF 2014, Hradec Králové")
 
+ 		array( "28.5. - 31.5. 2015", "Karlovarský pohár v letecké akrobacii"),
+ 		array( "18.6 - 21.6. 2015", "MČR v akrobacii letounů - Kroměříž"),
+		array( "27.6. - 28.6. 2015", "Memorial air show - Roudnice nad Labem"),
+		array( "20.8. - 29.8. 2015", "Mistrovství světa v letecké akrobacii – Francie, Châteauroux-Déols"),
+		array( "5.9. - 6.9. 2015", "CIAF – Hradec Králové")
 
 	);
 

@@ -190,16 +190,18 @@ end of MWS include -->
         </div>
         <div class="col-md-3">
 
-            <iframe style="border: 0;" scrolling="no" width="250" height="376" src="https://www.hithit.com/cs/project/1221/cs/airfaceone/embedded/teaser"></iframe>
             
-            <!--    
+               
             <div class="panel panel-default">
                 <div class="panel-heading"><?php to_lang("Nejbližší akce","Upcoming events")?></div>
                 <div class="panel-body">
                     <?php include 'akce.page'; ?>
                 </div>
             </div>
-            -->
+ 
+           <iframe style="border: 0;" scrolling="no" width="250" height="376" src="https://www.hithit.com/cs/project/1221/cs/airfaceone/embedded/teaser"></iframe>
+ 
+
             <div class="panel panel-default">
                 <div class="panel-heading">Facebook</div>
                 <div class="panel-body">
