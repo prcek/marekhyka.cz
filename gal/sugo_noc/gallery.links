@@ -1,0 +1,46 @@
+<div class="gal" id="links-gallery-sugo_noc">
+	<a href="gal/sugo_noc/imgs/DSC_9727.jpg" data-gallery>
+		<img src="gal/sugo_noc/thumbs/DSC_9727.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_noc/imgs/DSC_9769v2.jpg" data-gallery>
+		<img src="gal/sugo_noc/thumbs/DSC_9769v2.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_noc/imgs/DSC_9769v5.jpg" data-gallery>
+		<img src="gal/sugo_noc/thumbs/DSC_9769v5.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_noc/imgs/DSC_9777.jpg" data-gallery>
+		<img src="gal/sugo_noc/thumbs/DSC_9777.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_noc/imgs/DSC_9780.jpg" data-gallery>
+		<img src="gal/sugo_noc/thumbs/DSC_9780.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_noc/imgs/DSC_9803.jpg" data-gallery>
+		<img src="gal/sugo_noc/thumbs/DSC_9803.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_noc/imgs/DSC_9808.jpg" data-gallery>
+		<img src="gal/sugo_noc/thumbs/DSC_9808.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_noc/imgs/DSC_9810.jpg" data-gallery>
+		<img src="gal/sugo_noc/thumbs/DSC_9810.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_noc/imgs/DSC_9814.jpg" data-gallery>
+		<img src="gal/sugo_noc/thumbs/DSC_9814.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_noc/imgs/DSC_9818.jpg" data-gallery>
+		<img src="gal/sugo_noc/thumbs/DSC_9818.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_noc/imgs/DSC_9828.jpg" data-gallery>
+		<img src="gal/sugo_noc/thumbs/DSC_9828.jpg" class="img-responsive pull-left">
+	</a>
+</div>
+
+    <script>
+    document.getElementById('links-gallery-sugo_noc').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+    </script>
