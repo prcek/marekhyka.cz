@@ -1,6 +1,9 @@
 <div class="panel panel-default">
     <div class="panel-heading" contenteditable="false">Suchoi SU-31M</div> 
     <div class="panel-body" contenteditable="false">
+
+                  <?php include "gal/sugo_1/gallery_c.links"; ?>
+
         <div class="row">   
             <div class="col-md-12">
                 <img src="imgs/sugo_polep.jpg" class="img-responsive img-rounded">

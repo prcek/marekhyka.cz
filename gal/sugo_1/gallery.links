@@ -1,0 +1,25 @@
+<div class="gal" id="links-gallery-sugo_1">
+	<a href="gal/sugo_1/imgs/0_11165117_713087112136890_8210121898662525663_o.jpg" data-gallery>
+		<img src="gal/sugo_1/thumbs/0_11165117_713087112136890_8210121898662525663_o.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_1/imgs/11143728_10204157315964126_5284679027995324769_n.jpg" data-gallery>
+		<img src="gal/sugo_1/thumbs/11143728_10204157315964126_5284679027995324769_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_1/imgs/11216208_922413781144125_5768205648714723593_o.jpg" data-gallery>
+		<img src="gal/sugo_1/thumbs/11216208_922413781144125_5768205648714723593_o.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/sugo_1/imgs/19615_10206647410006820_2493975128949811739_n.jpg" data-gallery>
+		<img src="gal/sugo_1/thumbs/19615_10206647410006820_2493975128949811739_n.jpg" class="img-responsive pull-left">
+	</a>
+</div>
+
+    <script>
+    document.getElementById('links-gallery-sugo_1').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+    </script>

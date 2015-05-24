@@ -1,0 +1,18 @@
+<div id="blueimp-gallery-carousel-sugo_1" class="blueimp-gallery blueimp-gallery-controls  blueimp-gallery-carousel">
+	<div class="slides"></div>
+	<h3 class="title"></h3>
+	<a class="prev">‹</a>
+	<a class="next">›</a>
+	<a class="play-pause"></a>
+	<ol class="indicator"></ol>
+</div>
+<div id="links-gallery-carousel-sugo_1">
+	<a href="gal/sugo_1/imgs/0_11165117_713087112136890_8210121898662525663_o.jpg" data-gallery>
+	</a>
+	<a href="gal/sugo_1/imgs/11143728_10204157315964126_5284679027995324769_n.jpg" data-gallery>
+	</a>
+	<a href="gal/sugo_1/imgs/11216208_922413781144125_5768205648714723593_o.jpg" data-gallery>
+	</a>
+	<a href="gal/sugo_1/imgs/19615_10206647410006820_2493975128949811739_n.jpg" data-gallery>
+	</a>
+</div>
