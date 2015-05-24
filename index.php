@@ -61,6 +61,10 @@
         background-color: rgba(255,255,255,1);
     }
 
+    body {
+        background-color: rgba(0,0,0,1);
+    }
+
 
     .gal > a > img {
         border: 2px solid #eeeeff;
@@ -136,8 +140,8 @@ end of MWS include -->
 <div class="container visible-lg visible-md" id="bgtest">
 	<div class="row">
             <div class="col-md-offset-6 col-md-5">
-                <img src="imgs/extra_2_sm_tr.png" class="img-responsive" alt="extra"> 
-               <!-- <img src="imgs/sugo_marek.png" class="img-responsive" alt="sugo"> -->
+               <!-- <img src="imgs/extra_2_sm_tr.png" class="img-responsive" alt="extra">  -->
+                <img src="imgs/sugo_marek.png" class="img-responsive" alt="sugo"> 
             </div>
 	</div>
 </div>
@@ -146,7 +150,7 @@ end of MWS include -->
     <div class="row">
         <div class="col-md-6">
             <a href=".">
-	           <img src="imgs/hyka_logo_tr.png" class="img-responsive" alt="hyka logo">
+	           <img src="imgs/hyka_logo_tr_black.png" class="img-responsive" alt="hyka logo">
             </a>
         </div>
 
