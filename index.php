@@ -136,7 +136,8 @@ end of MWS include -->
 <div class="container visible-lg visible-md" id="bgtest">
 	<div class="row">
             <div class="col-md-offset-6 col-md-5">
-               <!-- <img src="imgs/extra_2_sm_tr.png" class="img-responsive" alt="extra"> -->
+                <img src="imgs/extra_2_sm_tr.png" class="img-responsive" alt="extra"> 
+               <!-- <img src="imgs/sugo_marek.png" class="img-responsive" alt="sugo"> -->
             </div>
 	</div>
 </div>
