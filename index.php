@@ -190,6 +190,24 @@ end of MWS include -->
         </div>
         <div class="col-md-3">
 
+            <div class="panel panel-default">
+                <div class="panel-heading"><?php to_lang("Partneři a sponzoři","Partners and sponsors")?></div>
+                <div class="panel-body">
+
+                <a href="http://www.airfaceone.cz/">
+                    <img src="imgs/logo_afo.png" class="img-responsive center-block" alt="airfaceone logo">
+                </a>
+   
+                <a href="http://www.aeroengine.cz/">
+                    <img src="imgs/logo_aeroengine.png" class="img-responsive center-block" alt="aeroengine logo">
+                </a>
+
+                <a href="http://www.jihostroj.com/">
+                    <img src="imgs/logo_jihostroj.png" class="img-responsive center-block" alt="jihostroj logo">
+                </a>
+
+                </div>
+            </div>
             
                
             <div class="panel panel-default">
@@ -211,29 +229,12 @@ end of MWS include -->
         </div>
     </div>
     <br>
+    <!--
     <div class="row">
 	    <div class="panel">
             <div class="panel-heading text-center"><?php to_lang("Partneři a sponzoři","Partners and sponsors"); ?></div>
             <div class="panel-body text-center">
 
-            <!-- 
-                <a href="http://www.bittner-audio.com">
-                    <img src="imgs/ba-logo.png"  class="" alt="bittner audio logo">
-                </a>
-                <a href="http://www.sport-invest.cz/seznam-sportovcu/ostatni/hyka-marek">
-                    <img src="imgs/sport_invest_logo2.png" class="" alt="sport invest logo">
-                </a>
-                <a href="http://www.woodcomp.cz">
-                    <img src="imgs/logo_woodcomp.png" class="" alt="woodcomp logo">
-                </a>
-                <a href="http://www.gestivbohemia.com">
-                    <img src="imgs/logo_gestiv.png" class="" alt="gestiv logo">
-                </a>
-
-                <a href="http://itsounds.com">
-                    <img src="imgs/logo_is.png" class="" alt="itsounds.com logo">
-                </a>
-            -->
             
                 <a href="http://www.airfaceone.cz/">
                     <img src="imgs/logo_afo.png" class="" alt="airfaceone logo">
@@ -247,14 +248,10 @@ end of MWS include -->
                     <img src="imgs/logo_jihostroj.png" class="" alt="jihostroj logo">
                 </a>
 
-            <!--
-                <img src="//placehold.it/220x100" class=""> 
-                <img src="imgs/boxer_logo_sm.png"  class="" alt="">
-                <img src="//placehold.it/220x100" class=""> 
-            -->
             </div>
         </div>
     </div>
+    -->
 </div>
 
 
