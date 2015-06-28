@@ -57,12 +57,20 @@
 	top: 30px;
         z-index: -10;
     }
+
+    div#lang {
+        position:absolute;
+        z-index: 10;
+        padding-right: 50px;
+    }
+
+
     div#page {
         background-color: rgba(255,255,255,1);
     }
 
     body {
-        background-color: rgba(0,0,0,1);
+        background-color: rgba(200,200,255,1);
     }
 
 
@@ -141,16 +149,42 @@ end of MWS include -->
 	<div class="row">
             <div class="col-md-offset-6 col-md-5">
                <!-- <img src="imgs/extra_2_sm_tr.png" class="img-responsive" alt="extra">  -->
-                <img src="imgs/sugo_marek.png" class="img-responsive" alt="sugo"> 
+               <!-- <img src="imgs/sugo_top_2.jpg" class="img-responsive" alt="sugo">  -->
             </div>
 	</div>
 </div>
 
+<div class="container visible-lg visible-md" id="lang">
+    <div class="row">
+                <div class="pull-right">
+
+                    <?php if (is_lang('cs')) { ?>
+                        <a href="<?php href_lang('cs'); ?>"><img class="active_flag" src="imgs/flag_cz.png" alt="lang flag cz"></a>
+                        <a href="<?php href_lang('en'); ?>"><img class="flag" src="imgs/flag_gb.png" alt="lang flag en"></a>
+                    <?php } else { ?>
+                        <a href="<?php href_lang('cs'); ?>"><img class="flag" src="imgs/flag_cz.png" alt="lang flag cz"></a>
+                        <a href="<?php href_lang('en'); ?>"><img class="active_flag" src="imgs/flag_gb.png" alt="lang flag en"></a>
+                    <?php } ?>
+
+        </div>
+    </div>
+</div>
+
+
 
     <div class="row">
-        <div class="col-md-6">
+
+        <div class="col-md-12">
             <a href=".">
-	           <img src="imgs/hyka_logo_tr_black.png" class="img-responsive" alt="hyka logo">
+               <img src="imgs/sugo_top_3.jpg" class="img-responsive" alt="hyka logo">
+            </a>
+        </div>
+
+  
+<!--
+        <div class="col-md-5">
+            <a href=".">
+	           <img src="imgs/hyka_logo_tr.png" class="img-responsive" alt="hyka logo">
             </a>
         </div>
 
@@ -165,11 +199,14 @@ end of MWS include -->
                     <?php } ?>
 
         </div>
+-->
       
     </div>
 
 
     <div class="row">
+        <div class="col-md-12">
+
         <div class="navbar navbar-inverse">
             <ul class="nav navbar-nav nav-justified">
                 <li class="<?php active("news"); ?>"><a href="<?php href_page('news'); ?>" class=""><?php to_lang("Novinky","News"); ?></a> </li>
@@ -182,6 +219,8 @@ end of MWS include -->
                 <li class="<?php active("partneri"); ?>"><a href="<?php href_page('partneri'); ?>" class=""><?php to_lang("Partneři","Partners");?></a></li>
                 <li class="<?php active("kontakty"); ?>"><a href="<?php href_page('kontakty'); ?>" class=""><?php to_lang("Kontakty","Contacts");?></a></li>
             </ul>
+        </div>
+        
         </div>
 	<div> </div>
     </div>
