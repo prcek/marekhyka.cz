@@ -249,7 +249,11 @@ end of MWS include -->
                 <a href="http://www.jihostroj.com/">
                     <img src="imgs/logo_jihostroj.png" class="img-responsive center-block" alt="jihostroj logo">
                 </a>
-
+                
+                <a href="http://www.gestivbohemia.com">
+                    <img src="imgs/logo_gestiv.png" class="img-responsive center-block" alt="gestiv logo">
+                </a>
+               
                 </div>
             </div>
             
