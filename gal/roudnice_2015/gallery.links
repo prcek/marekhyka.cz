@@ -1,0 +1,52 @@
+<div class="gal" id="links-gallery-roudnice_2015">
+	<a href="gal/roudnice_2015/imgs/11010588_732499693528965_3314358651151148557_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11010588_732499693528965_3314358651151148557_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/roudnice_2015/imgs/11012784_732499653528969_6076093316873449027_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11012784_732499653528969_6076093316873449027_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/roudnice_2015/imgs/11143482_732500073528927_2881209402063259214_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11143482_732500073528927_2881209402063259214_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/roudnice_2015/imgs/11402931_732499236862344_2768974271103218134_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11402931_732499236862344_2768974271103218134_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/roudnice_2015/imgs/11541924_732499920195609_203131986256878909_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11541924_732499920195609_203131986256878909_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/roudnice_2015/imgs/11659453_732500016862266_4601915988901485766_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11659453_732500016862266_4601915988901485766_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/roudnice_2015/imgs/11665420_732499763528958_2553573811009187428_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11665420_732499763528958_2553573811009187428_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/roudnice_2015/imgs/11692488_732499573528977_5816080950657201187_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11692488_732499573528977_5816080950657201187_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/roudnice_2015/imgs/11693815_732502780195323_6684476836156042445_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11693815_732502780195323_6684476836156042445_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/roudnice_2015/imgs/11693954_732499350195666_4083921828852390707_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11693954_732499350195666_4083921828852390707_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/roudnice_2015/imgs/11693963_732499486862319_1156455912561881579_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11693963_732499486862319_1156455912561881579_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/roudnice_2015/imgs/11703038_732502793528655_6375638808168172370_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11703038_732502793528655_6375638808168172370_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/roudnice_2015/imgs/11707664_732499406862327_4163606239706237102_n.jpg" data-gallery>
+		<img src="gal/roudnice_2015/thumbs/11707664_732499406862327_4163606239706237102_n.jpg" class="img-responsive pull-left">
+	</a>
+</div>
+
+    <script>
+    document.getElementById('links-gallery-roudnice_2015').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+    </script>
