@@ -1,5 +1,38 @@
 
 <div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">CIAF 2015 letecká show v Hradci Králové</div> 
+    <div class="panel-body" contenteditable="false">
+
+        <p>Letiště v Hradci Královém hostilo další ročník letecké show CIAF</p>
+        <div class="clearfix"><?php include "gal/ciaf_2015/gallery.links"; ?></div>
+
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">Mistrovství světa v letecké akrobacii – Francie, Châteauroux-Déols</div> 
+    <div class="panel-body" contenteditable="false">
+
+        <p>Ve dnech 20.-29.srpna 2015 naši reprezentanti Marek Hyka, Martin Šonka a 
+Petr Kopfstein v kategorii unlimited motorové akrobacie se zúčastnili 
+mistroství světa konaného již po druhé ve Francii, tentokrát na letišti 
+Châteauroux-Déols v centrální Francii. Petr Kopfstein vybojoval krásné 
+12.místo v mužích na své Extře 330 SC , Martin Šonka se umístil na 
+14.místě také s Extrou 330 SC a Marek Hyka, který prezentoval na novém 
+stroji SU-31-M obsadil 32.místo.Martin Šonka na závěr vybojoval titul 
+vícemistr světa ve Freestylu. V týmech jsme obsadili čtvrté místo z 12 
+zemí světa, české letce předehnali jen francouzi, rusové a američané.Velká 
+podpora francouzského národa nás překvapila, vsichni závodníci díky právě 
+fanouškům letecké akrobacie, zažili nezapomenoutelnou atmosféru tohoto 
+závodu. </p>
+        <div class="clearfix"><?php include "gal/francie_2015/gallery.links"; ?></div>
+
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
+
+<div class="panel panel-default">
     <div class="panel-heading" contenteditable="false">Memorial Air Show Roudnice 2015</div> 
     <div class="panel-body" contenteditable="false">
 

@@ -1,0 +1,56 @@
+<div id="blueimp-gallery-carousel-ciaf_2015" class="blueimp-gallery blueimp-gallery-controls  blueimp-gallery-carousel">
+	<div class="slides"></div>
+	<h3 class="title"></h3>
+	<a class="prev">‹</a>
+	<a class="next">›</a>
+	<a class="play-pause"></a>
+	<ol class="indicator"></ol>
+</div>
+<div id="links-gallery-carousel-ciaf_2015">
+	<a href="gal/ciaf_2015/imgs/1.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/10.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/11.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/12.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/13.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/14.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/15.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/16.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/17.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/18.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/19.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/2.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/20.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/21.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/22.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/23.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/3.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/4.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/5.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/6.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/7.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/8.jpg" data-gallery>
+	</a>
+	<a href="gal/ciaf_2015/imgs/9.jpg" data-gallery>
+	</a>
+</div>

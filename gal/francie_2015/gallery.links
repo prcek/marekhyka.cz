@@ -1,0 +1,40 @@
+<div class="gal" id="links-gallery-francie_2015">
+	<a href="gal/francie_2015/imgs/11816988_10204424914013749_5322350760247224469_n.jpg" data-gallery>
+		<img src="gal/francie_2015/thumbs/11816988_10204424914013749_5322350760247224469_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/francie_2015/imgs/11891861_880925145296393_412984485247627369_o.jpg" data-gallery>
+		<img src="gal/francie_2015/thumbs/11891861_880925145296393_412984485247627369_o.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/francie_2015/imgs/11892071_753790318066569_4837398468072339339_n.jpg" data-gallery>
+		<img src="gal/francie_2015/thumbs/11892071_753790318066569_4837398468072339339_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/francie_2015/imgs/11896373_880925048629736_1359368978593670386_o.jpg" data-gallery>
+		<img src="gal/francie_2015/thumbs/11896373_880925048629736_1359368978593670386_o.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/francie_2015/imgs/11902586_10204424924254005_7455534576819173188_n.jpg" data-gallery>
+		<img src="gal/francie_2015/thumbs/11902586_10204424924254005_7455534576819173188_n.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/francie_2015/imgs/11907758_880590711996503_1883383296436917265_o.jpg" data-gallery>
+		<img src="gal/francie_2015/thumbs/11907758_880590711996503_1883383296436917265_o.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/francie_2015/imgs/11921829_10204437327804086_1196859776550735851_o.jpg" data-gallery>
+		<img src="gal/francie_2015/thumbs/11921829_10204437327804086_1196859776550735851_o.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/francie_2015/imgs/11952856_10204439646822060_8890853811875390191_o.jpg" data-gallery>
+		<img src="gal/francie_2015/thumbs/11952856_10204439646822060_8890853811875390191_o.jpg" class="img-responsive pull-left">
+	</a>
+	<a href="gal/francie_2015/imgs/11953481_10204438887523078_3313391842885514615_o.jpg" data-gallery>
+		<img src="gal/francie_2015/thumbs/11953481_10204438887523078_3313391842885514615_o.jpg" class="img-responsive pull-left">
+	</a>
+</div>
+
+    <script>
+    document.getElementById('links-gallery-francie_2015').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+    </script>
