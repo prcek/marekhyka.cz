@@ -254,6 +254,10 @@ end of MWS include -->
                     <img src="imgs/logo_gestiv.png" class="img-responsive center-block" alt="gestiv logo">
                 </a>
                
+                <a href="http://www.zlinaero.com">
+                    <img src="imgs/logo_savage.png" class="img-responsive center-block" alt="savage logo">
+                </a>
+
                 </div>
             </div>
             
