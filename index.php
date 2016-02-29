@@ -70,7 +70,7 @@
     }
 
     body {
-        background-color: rgba(200,200,255,1);
+        background-color: rgba(200,200,200,1);
     }
 
 
