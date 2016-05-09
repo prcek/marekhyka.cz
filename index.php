@@ -127,6 +127,7 @@ end of MWS include -->
     <?php 
         if (!$debug) {
             include_once("ga_track.php");       
+            include_once("fb_track.php");
         }
     ?>
 
