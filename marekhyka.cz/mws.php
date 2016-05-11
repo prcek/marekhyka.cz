@@ -4,7 +4,7 @@
         $debug = False;
     } else {
         echo "testing site;\n";
-        $debug = True;
+        $debug = False;
     }
 
 
