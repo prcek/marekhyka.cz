@@ -267,6 +267,11 @@ end of MWS include -->
                     <img src="imgs/logo_goldfren.png" class="img-responsive center-block" alt="goldfren logo">
                 </a>
 
+		<a href="http://www.unikov.cz">
+                    <img src="imgs/logo_unikov.png" class="img-responsive center-block" alt="unikov logo">
+                </a>
+
+
 
                 </div>
             </div>
