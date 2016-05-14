@@ -259,8 +259,12 @@ end of MWS include -->
                     <img src="imgs/logo_savage.png" class="img-responsive center-block" alt="savage logo">
                 </a>
 
-		<a href="http://cirrusaircraft.com">
+		<a href="http://cirrus.cz">
                     <img src="imgs/logo_cirrus.png" class="img-responsive center-block" alt="cirrus logo">
+                </a>
+
+		<a href="http://goldfren.cz">
+                    <img src="imgs/logo_goldfren.png" class="img-responsive center-block" alt="goldfren logo">
                 </a>
 
 
