@@ -4,6 +4,7 @@
     	<h3>I am grateful for flying higher and higher to my loyal sponsors and partners</h3>
 
      		<div class="text-center">
+
             <!--
         		<a href="http://www.bittner-audio.com">
                     <img src="imgs/ba-logo.png"  class="">
@@ -23,7 +24,6 @@
                 <a href="http://itsounds.com">
                     <img src="imgs/logo_is.png" class="" alt="itsounds.com logo">
                 </a>
-            -->
                 <a href="http://www.airfaceone.cz/">
                     <img src="imgs/logo_afo.png" class="" alt="airfaceone logo">
                 </a>
@@ -54,6 +54,39 @@
 
 		<a href="http://www.unikov.cz">
                     <img src="imgs/logo_unikov.png" class="" alt="unikov logo">
+                </a>
+-->
+
+                <a href="http://mogul.cz">
+                    <img src="imgs/logo_mogul.png" class="img-responsive center-block" alt="mogul logo">
+                </a>
+
+                <a href="http://www.hamiltonwatch.com">
+                    <img src="imgs/logo_hamilton.png" class="img-responsive center-block" alt="hamilton logo">
+                </a>
+
+                <a href="http://www.k2t.cz">
+                    <img src="imgs/logo_k2t.png" class="img-responsive center-block" alt="k2t logo">
+                </a>
+
+                <a href="http://cirrus.cz">
+                    <img src="imgs/logo_cirrus.png" class="img-responsive center-block" alt="cirrus logo">
+                </a>
+
+                <a href="http://smartwings.com">
+                    <img src="imgs/logo_smartwings.png" class="img-responsive center-block" alt="smartwings logo">
+                </a>
+
+                <a href="https://www.kr-stredocesky.cz">
+                    <img src="imgs/logo_stredoceskykraj.png" class="img-responsive center-block" alt="stredocesky kraj logo">
+                </a>
+
+                <a href="http://goldfren.cz">
+                    <img src="imgs/logo_goldfren.png" class="img-responsive center-block" alt="goldfren logo">
+                </a>
+
+                <a href="http://www.unikov.cz">
+                    <img src="imgs/logo_unikov.png" class="img-responsive center-block" alt="unikov logo">
                 </a>
 
         	</div>
