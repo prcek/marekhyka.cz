@@ -177,7 +177,7 @@ end of MWS include -->
 
         <div class="col-md-12">
             <a href=".">
-               <img src="imgs/sugo_top_3.jpg" class="img-responsive" alt="hyka logo">
+               <img src="imgs/extra_new_top.jpg" class="img-responsive" alt="hyka logo">
             </a>
         </div>
 
