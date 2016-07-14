@@ -150,7 +150,7 @@ end of MWS include -->
 	<div class="row">
             <div class="col-md-offset-6 col-md-5">
                <!-- <img src="imgs/extra_2_sm_tr.png" class="img-responsive" alt="extra">  -->
-               <!-- <img src="imgs/sugo_top_2.jpg" class="img-responsive" alt="sugo">  -->
+               <!-- <img src="imgs/extra_new_top.jpg" class="img-responsive" alt="sugo">  -->
             </div>
 	</div>
 </div>
