@@ -1,4 +1,19 @@
 
+
+
+
+<div class="panel panel-default">
+    <div class="panel-heading" contenteditable="false">MISTROVSTVÍ ČESKÉ REPUBLIKY v AKROBACII LETOUNŮ 2016 - Břeclav</div> 
+    <div class="panel-body" contenteditable="false">
+
+        <p>Letiště v Břeclavi hostilo Mistrovství ČR v akrobacii motorových letounů. První místo získal Martin Šonka, já jsem byl druhý, na třetím a čtvrtém letci z Polska a pátý byl další Čech, Petr Kouřil.</p>
+        <div class="clearfix"><?php include "gal/breclav_2016/gallery.links"; ?></div>
+
+    </div> <!-- end of panel-body -->
+</div> <!-- end of panel -->
+
+
+
 <div class="panel panel-default">
     <div class="panel-heading" contenteditable="false">Hlavou dolů</div> 
     <div class="panel-body" contenteditable="false">
