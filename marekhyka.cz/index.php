@@ -251,6 +251,10 @@ end of MWS include -->
                     <img src="imgs/logo_k2t.png" class="img-responsive center-block" alt="k2t logo">
 		</a>
 
+		<a href="http://www.xtremeair.com">
+                    <img src="imgs/logo_xtremeair.png" class="img-responsive center-block" alt="xtremeair logo">
+                </a>
+
 		<a href="http://cirrus.cz">
                     <img src="imgs/logo_cirrus.png" class="img-responsive center-block" alt="cirrus logo">
                 </a>
